@@ -8,6 +8,11 @@ import { Button } from './Button'
 export const Navbar: React.FC = () => {
   const [ismenuOpen, setIsMenuOpen] = React.useState(false)
 
+  // show menubar 
+  function showMenu () {
+    setIsMenuOpen(!ismenuOpen)
+  }
+
   return (
     <nav className='bg-[#ffffff] py-3 shadow-md flex justify-between items-center pr-2'>
       <div className='flex items-center justify-between w-full max-w-6xl mx-auto'>
@@ -16,7 +21,7 @@ export const Navbar: React.FC = () => {
           Oluseed
         </NavLink>
         {/* Mobile View */}
-        <div onClick={() => setIsMenuOpen(!ismenuOpen)} className='md:hidden'>
+        <div onClick={showMenu} className='md:hidden'>
           {!ismenuOpen ? <FaBars className="text-[#000000] text-2xl cursor-pointer mr-3" /> : <FaXmark className="text-[#000000] text-2xl cursor-pointer mr-3" />}
         </div>
 
@@ -96,6 +101,7 @@ export const Navbar: React.FC = () => {
                 <li>
                   <NavLink 
                     to="/" 
+                    onClick={showMenu}
                     className={({ isActive }) => 
                       isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
                   }
@@ -106,6 +112,7 @@ export const Navbar: React.FC = () => {
                 <li>
                   <NavLink 
                     to="/works" 
+                    onClick={showMenu}
                     className={({ isActive }) => 
                       isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
                   }
@@ -115,6 +122,7 @@ export const Navbar: React.FC = () => {
                 </li>
                 <li>
                   <NavLink 
+                    onClick={showMenu}
                     to="/about" 
                     className={({ isActive }) => 
                       isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
@@ -125,6 +133,7 @@ export const Navbar: React.FC = () => {
                 </li>
                 <li>
                   <NavLink 
+                    onClick={showMenu}
                     to="/blogs" 
                     className={({ isActive }) => 
                       isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
@@ -135,6 +144,7 @@ export const Navbar: React.FC = () => {
                 </li>
                 <li>
                   <Button
+                    onClick={showMenu}
                     text='Contact Us'
                     className='bg-[#0071E3] rounded-xl px-10 py-4 flex text-center'
                   />
