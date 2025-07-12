@@ -6,7 +6,7 @@ export const Hero_Section: React.FC = () => {
   return (
     <section 
       style={{ backgroundImage: `url(${homeImage})` }}
-      className="relative bg-cover bg-center h-100 md:h-120 grid items-center font-sora">
+      className="relative bg-cover bg-center h-100 md:h-120 grid items-center font-bai-jamjuree">
       {/* Overlay */}
       <div className="absolute insert-10 bg-gray-400/20 z-100"></div>
 

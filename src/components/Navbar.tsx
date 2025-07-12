@@ -79,7 +79,7 @@ export const Navbar: React.FC = () => {
             <NavLink to={'/contact'}>
                 <Button
                   text='Contact Us'
-                  className='bg-[#0071E3] rounded-xl px-6 py-3.5 cursor-pointer flex text-center md:block font-sora'
+                  className='bg-[#0071E3] rounded-xl px-6 py-3.5 cursor-pointer flex text-center md:block font-sora text-white'
                 />
             </NavLink>
             
@@ -146,7 +146,7 @@ export const Navbar: React.FC = () => {
                   <Button
                     onClick={showMenu}
                     text='Contact Us'
-                    className='bg-[#0071E3] rounded-xl px-10 py-4 flex text-center'
+                    className='bg-[#0071E3] rounded-xl px-10 py-4 flex text-center text-white'
                   />
                 </li>                  
               </ul>

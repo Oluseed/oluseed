@@ -10,9 +10,9 @@ import { FaArrowRight } from 'react-icons/fa'
 
 export const OurService: React.FC = () => {
   return (
-    <section className='bg-[#FFF8EF] h-full grid font-sora'>
+    <section className='bg-[#FFF8EF] h-full grid font-bai-jamjuree pb-4'>
 
-      <div className='bg-[#25262A] mt-4 pt-3 pb-4  place-self-center shadow-2xs text-white rounded-3xl h-auto grid font-sora md:mt-1 md:absolute top-100 md:px-5 md:py-5 lg:px-12 lg:py-7' >
+      <div className='bg-[#25262A] mt-4 pt-3 pb-4  place-self-center shadow-2xs text-white rounded-3xl h-auto grid font-bai-jamjuree md:mt-1 md:absolute top-100 md:px-5 md:py-5 lg:px-12 lg:py-7' >
         <div className='flex flex-col gap-3 mt-3 md:flex-row md:place-content-center lg:gap-3'>
           <div className='bg-[#0071E3] mx-10 rounded-2xl w-50 p-2 place-self-center md:mx-0 md:w-50 md:gap-5 lg:w-70'>
             <div className='flex justify-between md:mt-2'>
@@ -48,7 +48,7 @@ export const OurService: React.FC = () => {
             <h1 className='font-bold text-2xl md:text-3xl'>What We Serve</h1>
             <h1 className='font-bold text-2xl text-[#0071E3] md:text-3xl'>For Your Business</h1>
           </div>
-          <button className='hidden md:block bg-[#0071E3] rounded-xl px-3 text-white place-self-center text-sm h-12'>Our Portfolio</button>
+          <button className='hidden md:block bg-[#0071E3] rounded-xl px-3 text-white place-self-center font-sora text-sm h-12'>Our Portfolio</button>
         </div>
         <div className='grid grid-cols-1 place-self-center md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4 '>
           <div className='bg-white grid gap-2 rounded-2xl w-70 p-4 shadow-lg hover:shadow-xl transition-shadow duration-300'>
