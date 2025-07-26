@@ -1,6 +1,4 @@
 import React from 'react';
-import { FaCircle } from 'react-icons/fa';
-import { motion, AnimatePresence } from 'framer-motion';
 import NavArrow from '../assets/images/Group 5.svg'
 import { Link } from 'react-router';
 
@@ -11,7 +9,7 @@ type ProjectProps = {
 };
 
 
-export const ProjectsCard: React.FC<ProjectProps> = ({ 
+export const ProjectsCard: React.FC<PKrojectProps> = ({ 
   title,
   description,
   image,

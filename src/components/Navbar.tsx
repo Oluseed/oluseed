@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
         </NavLink>
         {/* Mobile View */}
         <div onClick={showMenu} className='md:hidden'>
-          {!ismenuOpen ? <FaBars className="text-[#000000] text-2xl cursor-pointer mr-3" /> : <FaXmark className="text-[#000000] text-2xl cursor-pointer mr-3" />}
+          {!ismenuOpen && <FaBars className="text-[#000000] text-2xl cursor-pointer mr-3" />}
         </div>
 
         {/* Desktop View */}
@@ -94,10 +94,11 @@ export const Navbar: React.FC = () => {
             animate={{ x: 0 }}
             exit={{ x: '-100%' }}
             transition={{ duration: 0.3 }}
-            className="fixed top-0 left-0 w-72 h-full bg-[#FFFFFF] shadow-2xl p-4 z-40 grid justify-center md:hidden"
+            className="fixed top-0 left-0 w-screen h-full bg-[#FFFFFF] p-4 z-40 md:hidden"
           >
-            <div className='mt-15 font-sora'>
-              <ul className="grid justify-between items-center gap-10 text-center">
+            <FaXmark className='place-self-end text-[#000000] text-3xl cursor-pointer mr-3' onClick={showMenu}/>
+            <div className='mt-20 font-sora place-self-center'>
+              <ul className="flex flex-col gap-20 justify-between text-center">
                 <li>
                   <NavLink 
                     to="/" 
