@@ -18,7 +18,7 @@ const cardVariants = {
   })
 }
 
-export const OurService: React.FC = () => {
+const OurService: React.FC = () => {
   return (
     <section className='bg-[#FFF8EF] h-full grid font-sora pb-4'>
 
@@ -132,3 +132,5 @@ export const OurService: React.FC = () => {
     </section>
   )
 }
+
+export default OurService

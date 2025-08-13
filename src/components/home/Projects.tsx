@@ -5,7 +5,7 @@ import project_image_1 from '../../assets/images/box-image-1.svg'
 import { ProjectsCard } from '../ProjectsCard'
 import { motion } from 'framer-motion'
 
-export const Projects: React.FC = () => {
+const Projects: React.FC = () => {
   const projectLists = [
     {
       title: 'AR 3D Design Concept',
@@ -105,3 +105,5 @@ export const Projects: React.FC = () => {
     </section>
   )
 }
+
+export default Projects

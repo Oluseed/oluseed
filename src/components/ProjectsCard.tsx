@@ -9,7 +9,7 @@ type ProjectProps = {
 };
 
 
-export const ProjectsCard: React.FC<PKrojectProps> = ({ 
+export const ProjectsCard: React.FC<ProjectProps> = ({ 
   title,
   description,
   image,

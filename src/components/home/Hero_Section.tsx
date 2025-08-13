@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import homeImage from '../../assets/images/home.svg';
 import image_1 from '../../assets/images/Frame 34130.svg'
 
-export const Hero_Section: React.FC = () => {
+const Hero_Section: React.FC = () => {
   return (
     <section 
       style={{ backgroundImage: `url(${homeImage})` }}
@@ -41,3 +41,5 @@ export const Hero_Section: React.FC = () => {
     </section>
   )
 }
+
+export default Hero_Section
