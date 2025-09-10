@@ -17,7 +17,7 @@ const Hero_Section: React.FC = () => {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className='bg-[#FFFFFF]/80 mx-4 md:mx-0 rounded-2xl place-self-center p-3 grid place-content-center md:px-20 md:py-10'
+        className='bg-[#FFFFFF]/80 mx-4 py-5 sm:py-10 md:mx-0 rounded-2xl place-self-center p-3 grid place-content-center md:px-20 md:py-10'
       >
         <div className='grid'>
           <div className='flex items-center gap-3 place-content-center place-self-center'>

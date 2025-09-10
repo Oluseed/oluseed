@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
   ]
 
   return (
-    <section className='bg-[#ffffff] h-full grid font-bai-jamjuree mt-4 p-2 lg:p-5'>
+    <section className='bg-[#ffffff] h-full grid font-clashDisplay mt-4 p-2 lg:p-5'>
       <motion.div
         className='grid'
         initial={{ opacity: 0, y: 40 }}
@@ -35,19 +35,19 @@ const Projects: React.FC = () => {
       >
         <div className='flex justify-between'>
           <div className='grid'>
-            <h1 className='text-3xl font-bold sm:text-2xl md:text-3xl lg:text-5xl'>Projects We</h1>
-            <h1 className='text-3xl font-bold sm:text-2xl md:text-3xl lg:text-5xl'>
+            <h1 className='text-3xl font-semibold sm:text-2xl md:text-3xl lg:text-5xl'>Projects We</h1>
+            <h1 className='text-3xl font-semibold sm:text-2xl md:text-3xl lg:text-5xl'>
               have <span className='text-[#0071E3]'>Completed</span>
             </h1>
           </div>
-          <div className='flex items-center gap-2'>
+          <div className='hidden md:flex md:items-center md:gap-2'>
             <NavLink to="">
               <Button
                 text='Start New Project'
                 className='
                   hidden sm:block 
                   sm:bg-white sm:shadow-md 
-                  sm:p-2 sm:rounded 
+                  sm:p-2 sm:rounded
                   sm:font-medium sm:text-[14px]
                   lg:text-base lg:cursor-pointer
                 '
@@ -86,7 +86,7 @@ const Projects: React.FC = () => {
           {projectLists.map((project, index) => (
             <motion.li
               key={index}
-              className='transform transition-transform duration-300 hover:scale-105'
+              className='transform transition-transform cursor-pointer duration-300 hover:scale-105'
               variants={{
                 hidden: { opacity: 0, scale: 0.9, y: 30 },
                 visible: { opacity: 1, scale: 1, y: 0 }

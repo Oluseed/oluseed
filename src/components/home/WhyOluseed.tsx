@@ -57,12 +57,12 @@ const WhyOluseed: React.FC = () => {
           Why Choose Us
         </h6>
 
-        <h1 className='font-sora text-[#030D03] mt-3 font-[600] text-4xl lg:text-5xl'>
+        <h1 className='font-clashDisplay text-[#030D03] mt-3 font-semibold text-4xl lg:text-5xl'>
           The Benefits of working with us
         </h1>
 
         {/* BENEFIT CARDS */}
-        <div className='grid mt-4 gap-6'>
+        <div className='grid mt-5 gap-6'>
           {datas.map((data, index) => (
             <motion.div
               key={index}
@@ -79,10 +79,10 @@ const WhyOluseed: React.FC = () => {
                 className='w-15 h-15 lg:w-20 lg:h-20'
               />
               <div className='grid gap-2'>
-                <h1 className='text-[#0071E3] font-poppins font-[500] text-[15px] lg:text-xl'>
+                <h1 className='text-[#0071E3] font-poppins font-bold text-[15px] lg:text-xl'>
                   {data.heading}
                 </h1>
-                <p className='font-poppins font-[200] text-[13px] pr-1 lg:font-[400] lg:text-[14px]'>
+                <p className='font-poppins text-[#818181] font-medium text-[13px] pr-1 lg:font-[400] lg:text-[14px]'>
                   {data.description}
                 </p>
               </div>

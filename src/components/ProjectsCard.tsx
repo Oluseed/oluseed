@@ -16,7 +16,7 @@ export const ProjectsCard: React.FC<ProjectProps> = ({
 }) => {
   return (
     <div 
-      className='h-70 w-80 rounded-3xl grid justify-between gap-10 mt-5 md:hover:scale-100 md:h-90 '
+      className='h-70 w-80 mr-2 rounded-3xl grid justify-between gap-10 mt-5 md:hover:scale-100 md:h-90 '
       style={{ backgroundImage: `url(${image})` }}>
       <Link to='/'>
         <div className='place-self-end  bg-white m-3 p-5 rounded-full'>
@@ -24,8 +24,8 @@ export const ProjectsCard: React.FC<ProjectProps> = ({
         </div>
       </Link>
       <div className='bg-white rounded-2xl h-auto grid place-content-center mb-3 mx-2 px-3 md:h-25 md:place-self-end'>
-        <h1 className='font-bold text-xl'>{title}</h1>
-        <p className='font-poppins font-light text-[15px] mt-2'>{description}</p>
+        <h1 className='font-bold text-xl font-clashDisplay'>{title}</h1>
+        <p className='font-poppins font-light text-[14px] mt-2 text-[#25262A]'>{description}</p>
       </div>
     </div>
     

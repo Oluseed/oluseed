@@ -39,18 +39,18 @@ const Faq: React.FC = () => {
 
   return (
     <section className='pb-10'>
-      <h1 className='font-sora font-bold text-3xl mt-10 md:text-5xl text-center'>
+      <h1 className='font-clashDisplay font-semibold text-3xl mt-10 md:text-5xl text-center'>
         Frequently Asked <span className='text-[#0071E3]'>Questions</span>
       </h1>
 
-      <div className='mt-8 shadow-sm pb-5 pt-5 rounded-2xl m-2 bg-gray-200 md:mx-30 lg:mx-60'>
+      <div className='mt-8 shadow-2xl pb-5 pt-5 rounded-2xl m-2 md:mx-30 lg:mx-60'>
         {datas.map((data, index) => (
-          <div className='grid border-b m-3 gap-2 p-1' key={index}>
+          <div className='grid border-b m-3 p-1 mb-2' key={index}>
             <div
               className='flex justify-between items-center cursor-pointer'
               onClick={() => toggleDescription(index)}
             >
-              <h1 className='font-poppins font-[400] text-[15px] md:text-xl'>
+              <h1 className='font-poppins font-semibold text-[15px] md:text-[16px] lg:text-[18px]'>
                 {data.title}
               </h1>
               <div>
@@ -73,7 +73,7 @@ const Faq: React.FC = () => {
                   transition={{ duration: 0.3, ease: 'easeInOut' }}
                   className='overflow-hidden'
                 >
-                  <p className='font-poppins font-[250] text-[13px] md:text-[14px] py-2'>
+                  <p className='font-poppins text-[#05131DB2] font-normal mb-5 text-[13px] md:text-[14px] py-2'>
                     {data.description}
                   </p>
                 </motion.div>
