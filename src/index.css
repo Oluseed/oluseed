@@ -2,10 +2,44 @@
 
 @import "tailwindcss";
 
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Light.woff2") format("woff2");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Regular.woff2") format("woff2");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Medium.woff2") format("woff2");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Bold.woff2") format("woff2");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+
+
 @theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-inter: "Inter", san-serif;
+  --font-playfair: "Playfair", san-serif;
+  --font-clashDisplay: "ClashDisplay", san-serif;
   --font-sora: Sora, sans-serif;
   --font-poppins: Poppins, sans-serif;
-  --font-inter: Inter, sans-serif;
   --font-manrope: Manrope, sans-serif;
   --font-bai-jamjuree: Bai Jamjuree, sans-serif;
 }

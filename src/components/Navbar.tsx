@@ -26,13 +26,13 @@ export const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop View */}
-        <div className='hidden md:block font-sora'>
-          <ul className="flex gap-17">
+        <div className='hidden md:block font-clashDisplay'>
+          <ul className="flex gap-10">
             <li className='place-self-center'>
               <NavLink 
                 to="/" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-sm hover:font-normal hover:text-[#0071e3]"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:font-normal hover:text-[#0071e3]"
                 }
               >
                 <div className='flex text-center place-content-center gap-2'>
@@ -47,7 +47,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/works" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-sm hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
               }
               >
                 Our Works
@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/about" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-sm hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
               }
               >
                 About Us
@@ -67,19 +67,39 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/blogs" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-sm hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
               }
               >
                 Our Blog
               </NavLink>
-            </li>          
+            </li> 
+            <li>
+              <NavLink 
+                to="/startup" 
+                className={({ isActive }) => 
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+              }
+              >
+                Start up
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                to="/product" 
+                className={({ isActive }) => 
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+              }
+              >
+                Our product
+              </NavLink>
+            </li>         
           </ul>
         </div>
           <div className='hidden md:block'>
             <NavLink to={'/contact'}>
                 <Button
                   text='Contact Us'
-                  className='bg-[#0071E3] rounded-xl px-6 py-3.5 cursor-pointer flex text-center md:block font-sora text-white'
+                  className='bg-[#0071E3] rounded-xl px-6 py-3.5 cursor-pointer flex text-center md:block font-clashDisplay text-white'
                 />
             </NavLink>
             
@@ -97,8 +117,8 @@ export const Navbar: React.FC = () => {
             className="fixed top-0 left-0 w-screen h-full bg-[#FFFFFF] p-4 z-40 md:hidden"
           >
             <FaXmark className='place-self-end text-[#000000] text-3xl cursor-pointer mr-3' onClick={showMenu}/>
-            <div className='mt-20 font-sora place-self-center'>
-              <ul className="flex flex-col gap-20 justify-between text-center">
+            <div className='mt-20 font-clashDisplay place-self-center'>
+              <ul className="flex flex-col gap-15 justify-between text-center">
                 <li>
                   <NavLink 
                     to="/" 
