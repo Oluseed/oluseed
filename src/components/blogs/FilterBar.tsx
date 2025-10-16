@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import { FiSearch, FiFilter } from "react-icons/fi";
 
 interface FilterBarProps {
-  setPostCategory: (category: string) => void;
+  setBlogCategory: (category: string) => void;
 }
 
-const FilterBar: React.FC<FilterBarProps> = ({ setPostCategory }) => {
+const FilterBar: React.FC<FilterBarProps> = ({ setBlogCategory }) => {
   const [query, setQuery] = useState("");
 
   const handleFilter = () => {
-    {query.trim() !== "" && setPostCategory(`Showing results for ${query}`)};
+    {query.trim() !== "" && setBlogCategory(`Showing results for ${query}`)};
     console.log("Filtering results for:", query);
   };
 
