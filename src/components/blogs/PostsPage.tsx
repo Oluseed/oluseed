@@ -2,14 +2,32 @@ import React from "react";
 import FilterBar from "./FilterBar";
 import { blogs } from "../../data/blogs";
 import { PostsCard } from "./PostsCard";
+import Pagination from "./Pagination";
 
 const PostsPage: React.FC = () => {
   const [blogCategory, setBlogCategory] = React.useState<string>("All Posts");
+  const [currentPage, setCurrentPage] = React.useState<number>(1); 
+  const postsPerPage = 3; 
 
-  // filters posts based on category
-  const filteredBlogs = blogCategory === "All Posts"
-    ? blogs 
-    : blogs.filter((blog) => blog.category.trim().toLowerCase() === blogCategory.trim().toLowerCase());
+  // Filter posts based on category
+  const filteredBlogs =
+    blogCategory === "All Posts"
+      ? blogs
+      : blogs.filter(
+          (blog) =>
+            blog.category.trim().toLowerCase() ===
+            blogCategory.trim().toLowerCase()
+        );
+
+  //  Pagination calculations
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentBlogs = filteredBlogs.slice(indexOfFirstPost, indexOfLastPost);
+
+  // Reset to page 1 when category changes
+  React.useEffect(() => {
+    setCurrentPage(1);
+  }, [blogCategory]);
 
   return (
     <div className="mt-5 mb-5 px-3 sm:px-10">
@@ -25,14 +43,24 @@ const PostsPage: React.FC = () => {
           <FilterBar setBlogCategory={setBlogCategory} />
         </div>
       </div>
-      
+
       {/* Show Posts */}
       <div>
-        {
-          filteredBlogs.length === 0 ? (
-            <p className="text-center text-gray-500 mt-10 font-inter font-light">Sorry no blogs found, try searching another category.</p>
-          ) : <PostsCard blog={filteredBlogs}/>
-        }        
+        {filteredBlogs.length === 0 ? (
+          <p className="text-center text-gray-500 mt-10 font-inter font-light">
+            Sorry no blogs found, try searching another category.
+          </p>
+        ) : (
+          <>
+            <PostsCard blog={currentBlogs} /> 
+            <Pagination
+              totalPosts={filteredBlogs.length}
+              postsPerPage={postsPerPage}
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
+            /> 
+          </>
+        )}
       </div>
     </div>
   );
