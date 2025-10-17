@@ -9,14 +9,14 @@ const PostsPage: React.FC = () => {
   // filters posts based on category
   const filteredBlogs = blogCategory === "All Posts"
     ? blogs 
-    : blogs.filter((blog) => blog.category === blogCategory);
+    : blogs.filter((blog) => blog.category.trim().toLowerCase() === blogCategory.trim().toLowerCase());
 
   return (
     <div className="mt-5 mb-5 px-3 sm:px-10">
       {/* Heading + FilterBar */}
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 sm:gap-0">
         {/* Post Category */}
-        <h1 className="font-clashDisplay text-[#000000] font-medium text-sm sm:text-base text-center sm:text-left">
+        <h1 className="font-clashDisplay text-[#000000] font-medium text-sm sm:text-2xl text-center sm:text-left">
           "{blogCategory}"
         </h1>
 

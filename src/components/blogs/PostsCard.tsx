@@ -1,4 +1,5 @@
 import React from "react";
+import { FiUser, FiMessageSquare } from "react-icons/fi";
 
 interface Blog {
   id: number;
@@ -12,13 +13,14 @@ interface Blog {
     year: string;
   };
   comments: {
+    id: number;
     name: string;
     text: string;
-  };
+  }[];
 }
 
 interface PostsCardProps {
-  blog: Blog[]; // ✅ expects an array of Blog objects
+  blog: Blog[];
 }
 
 export const PostsCard: React.FC<PostsCardProps> = ({ blog }) => {
@@ -27,31 +29,47 @@ export const PostsCard: React.FC<PostsCardProps> = ({ blog }) => {
       {blog.map((item) => (
         <div
           key={item.id}
-          className="border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md transition-all duration-300 bg-white"
+          className="border cursor-pointer border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 bg-[#FFF8EF] p-3"
         >
+          {/* Blog Image */}
           <img
             src={item.image}
             alt={item.title}
-            className="w-full h-40 object-cover rounded-md mb-3"
+            className="w-full h-48 object-cover rounded-md mb-3"
           />
 
+          {/* Blog Details */}
           <div className="space-y-2">
-            <h2 className="font-semibold text-lg text-gray-900">
-              {item.title}
-            </h2>
-            <p className="text-sm text-[#0071E3] font-medium">
-              {item.category}
-            </p>
 
-            <div className="flex justify-between items-center text-xs text-gray-500">
-              <p>By {item.author}</p>
-              <p>
-                {item.date.day} {item.date.month}, {item.date.year}
-              </p>
+            {/* Author and Comments */}
+            <div className="flex gap-x-4 text-sm text-[#5B5B5B] font-poppins font-normal">
+              <div className="flex items-center gap-1">
+                <FiUser className="text-[14px]"/>
+                <span className="text-[13px]">{item.author}</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <FiMessageSquare className="text-[14px]" />
+                <span className="text-[13px]">
+                  {
+                    item.comments.length > 1 ? item.comments.length + " Comments" : item.comments.length + " Comment"
+                  }
+                </span>
+              </div>
             </div>
-
-            <div className="mt-2 text-sm text-gray-600 italic border-t pt-2">
-              “{item.comments.text}” — {item.comments.name}
+            
+            {/* Title */}
+            <div>
+              <p className="text-[12px] text-[#0071E3] font-medium font-clashDisplay">
+                {item.category}
+              </p>
+              <h2 className="font-medium text-2xl text-[#191919] font-clashDisplay">
+                {item.title}
+              </h2>
+            </div>
+            
+            {/* Date */}
+            <div className="grid w-13 h-13 place-content-center bg-[#0071E3] text-[14px] text-[#FFFFFF] font-clashDisplay rounded-full font-medium">
+              <p>{item.date.day} / <br /> {item.date.month}</p>
             </div>
           </div>
         </div>
