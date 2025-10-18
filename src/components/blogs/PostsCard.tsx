@@ -1,5 +1,6 @@
 import React from "react";
 import { FiUser, FiMessageSquare } from "react-icons/fi";
+import { useNavigate } from "react-router";
 
 interface Blog {
   id: number;
@@ -24,10 +25,13 @@ interface PostsCardProps {
 }
 
 export const PostsCard: React.FC<PostsCardProps> = ({ blog }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {blog.map((item) => (
         <div
+          onClick={() => navigate(`/blogs/${item.id}`)}
           key={item.id}
           className="border cursor-pointer border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 bg-[#FFF8EF] p-3"
         >
