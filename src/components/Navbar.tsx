@@ -164,6 +164,17 @@ export const Navbar: React.FC = () => {
                   </NavLink>
                 </li>
                 <li>
+                  <NavLink 
+                    onClick={showMenu}
+                    to="/startup" 
+                    className={({ isActive }) => 
+                      isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
+                  }
+                  >
+                    Start up
+                  </NavLink>
+                </li>
+                <li>
                   <Button
                     onClick={showMenu}
                     text='Contact Us'

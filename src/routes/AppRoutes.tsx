@@ -6,6 +6,7 @@ import { OurWork } from '../pages/OurWork'
 import { About } from '../pages/About'
 import { OurBlog } from '../pages/OurBlog'
 import PostDetails from '../components/blogs/PostDetails'
+import Startup from '../pages/Startup'
 
 export const AppRoutes: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ export const AppRoutes: React.FC = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/blogs" element={<OurBlog/>} />
         <Route path="/blogs/:id" element={<PostDetails/>} />
+        <Route path='/startup' element={<Startup/>}/>
         <Route path="/contact" element={<div>Contact</div>} />
         <Route path="*" element={<div>404 Not Found</div>} />
       </Route>
