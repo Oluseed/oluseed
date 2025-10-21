@@ -27,7 +27,7 @@ export const Navbar: React.FC = () => {
 
         {/* Desktop View */}
         <div className='hidden md:block font-clashDisplay'>
-          <ul className="flex gap-10">
+          <ul className="flex gap-7">
             <li className='place-self-center'>
               <NavLink 
                 to="/" 
@@ -82,17 +82,17 @@ export const Navbar: React.FC = () => {
               >
                 Start up
               </NavLink>
-            </li>
+            </li>       
             <li>
               <NavLink 
-                to="/product" 
+                to="/Shop" 
                 className={({ isActive }) => 
                   isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
               }
               >
-                Our product
+                Shop
               </NavLink>
-            </li>         
+            </li> 
           </ul>
         </div>
           <div className='hidden md:block'>
@@ -172,6 +172,17 @@ export const Navbar: React.FC = () => {
                   }
                   >
                     Start up
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink 
+                    onClick={showMenu}
+                    to="/shop" 
+                    className={({ isActive }) => 
+                      isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
+                  }
+                  >
+                    Shop
                   </NavLink>
                 </li>
                 <li>

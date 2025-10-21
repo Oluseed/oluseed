@@ -31,8 +31,8 @@ const JobsFilterBar: React.FC<JobsFilterBarProps> = ({ setCurrentJobSelect }) =>
           gap-3 
           overflow-x-auto 
           scrollbar-hide 
-          py-2 
-          sm:justify-center
+          py-2 center
+          sm:justify-
         "
       >
         {departments.map((department) => (
