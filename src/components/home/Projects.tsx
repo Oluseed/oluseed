@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import { Button } from '../Button'
 import project_image_1 from '../../assets/images/box-image-1.svg'
 import { ProjectsCard } from '../ProjectsCard'
@@ -41,7 +40,7 @@ const Projects: React.FC = () => {
             </h1>
           </div>
           <div className='hidden md:flex md:items-center md:gap-2'>
-            <NavLink to="">
+            <a href="/contact">
               <Button
                 text='Start New Project'
                 className='
@@ -52,8 +51,8 @@ const Projects: React.FC = () => {
                   lg:text-base lg:cursor-pointer
                 '
               />
-            </NavLink>
-            <NavLink to="/">
+            </a>
+            <a href="/works">
               <Button
                 text='View all work'
                 className="
@@ -65,7 +64,7 @@ const Projects: React.FC = () => {
                   lg:cursor-pointer
                 "
               />
-            </NavLink>
+            </a>
           </div>
         </div>
 

@@ -14,6 +14,15 @@ interface ProductDetailsHeroProps {
 }
 
 const ProductDetailsHero: React.FC<ProductDetailsHeroProps> = ({ product }) => {
+  // Replace this number with your real WhatsApp number (include country code, no + or spaces)
+  const whatsappNumber = "2348066859951";
+
+  // Optional: pre-filled message
+  const message = `Hello! I'm interested in the ${product.name} priced at ₦${product.price}.`;
+
+  // WhatsApp link
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt-10 px-4 sm:px-8 lg:px-20">
       {/* Image Section */}
@@ -31,23 +40,26 @@ const ProductDetailsHero: React.FC<ProductDetailsHeroProps> = ({ product }) => {
           {product.name}
         </h1>
 
-        <p className="font-poppins text-[#656565] text-sm sm:text-base leading-6">
+        <p className="font-poppins text-[#656565] text-sm leading-6">
           {product.description}
         </p>
 
         <p className="font-inter font-bold text-lg sm:text-xl text-[#121212]">
-          #{product.price}.00
+          ₦{product.price}.00
         </p>
 
-        <button
-          aria-label="Chat on WhatsApp"
+        {/* WhatsApp Button */}
+        <a
+          href={whatsappLink}
+          target="_blank"
+          rel="noopener noreferrer"
           className="border p-3 sm:p-4 rounded-xl flex justify-center lg:justify-start 
                      hover:bg-green-600/10 bg-[#FFA15C14] gap-2 items-center 
                      font-medium text-base sm:text-lg cursor-pointer transition"
         >
           <FaWhatsapp className="text-2xl sm:text-3xl text-green-600" />
           <span className="text-[#434343] font-poppins">Message us</span>
-        </button>
+        </a>
       </div>
     </div>
   );

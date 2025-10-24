@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { FaX } from 'react-icons/fa6';
 
 const Footer: React.FC = () => {
@@ -39,10 +39,10 @@ const Footer: React.FC = () => {
             </p>
           </div>
           <div className="flex gap-5 text-lg">
-            <FaInstagram />
-            <FaX />
-            <FaLinkedin />
-            <FaYoutube />
+            <a href="https://www.instagram.com/oluseedtech/"><FaInstagram /></a>
+            <a href="https://x.com/oluseedtech"><FaX /></a>
+            <a href="https://www.linkedin.com/oluseed"><FaLinkedin /></a>
+            <a href="https://web.facebook.com/oluseedtech?_rdc=1&_rdr#"><FaFacebook /></a>
           </div>
         </div>
 
@@ -51,10 +51,11 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="font-sora font-semibold mb-2">Quick Links</h2>
             <ul className="grid gap-2">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Our Blog</li>
-              <li>Our Work</li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/blogs">Our Blog</a></li>
+              <li><a href="/works">Our Work</a></li>
+              <li><a href="/startup">Startup</a></li>
             </ul>
           </div>
           <div>
@@ -67,9 +68,9 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="font-sora font-semibold mb-2">Contact</h2>
             <ul className="grid gap-2">
-              <li>+62 1545 734 8996</li>
-              <li>+62 1545 734 8996</li>
-              <li>+62 1545 734 8996</li>
+              <li>Forestry Shopping Complex, Agunbelewo, Osogbo, Nigeria</li>
+              <li>+2348066859951</li>
+              <li>+2348054823562</li>
               <li>oluseed@gmail.com</li>
             </ul>
           </div>

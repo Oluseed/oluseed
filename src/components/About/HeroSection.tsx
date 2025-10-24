@@ -52,8 +52,8 @@ export const HeroSection: React.FC = () => {
             alt="icon"
             className="w-15 h-15 absolute left-0 top-1 -translate-y-1/2"
           />
-          <h1 className="font-clashDisplay text-center text-[#25262A] font-medium text-3xl sm:text-4xl md:text-5xl">
-            Empowering <br /> Webspace <br /> Dominance
+          <h1 className="font-clashDisplay text-center text-[#25262A] font-semibold text-3xl sm:text-4xl md:text-5xl">
+            About Oluseed <br /> Technologies
           </h1>
         </motion.div>
 

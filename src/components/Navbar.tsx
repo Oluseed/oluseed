@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaBars, FaChevronDown } from 'react-icons/fa'
+import { FaBars } from 'react-icons/fa'
 import { FaXmark } from 'react-icons/fa6'
 import { NavLink } from 'react-router'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from './Button'
+import logo from '../assets/images/logo-1.jpg'
 
 export const Navbar: React.FC = () => {
   const [ismenuOpen, setIsMenuOpen] = React.useState(false)
@@ -17,8 +18,10 @@ export const Navbar: React.FC = () => {
     <nav className='bg-[#ffffff] py-3 shadow-md flex justify-between items-center pr-2'>
       <div className='flex items-center justify-between w-full max-w-6xl mx-auto'>
         {/* Logo */}
-        <NavLink to="/" className="items-center p-3 ml-3 bg-[#D9D9D9] font-sora">
-          Oluseed
+        <NavLink to="/" className="items-center font-sora">
+          <div className='flex items-center gap-2 ml-3'>
+            <img src={logo} alt="Logo" className='w-35 object-cover'/>
+          </div>
         </NavLink>
         {/* Mobile View */}
         <div onClick={showMenu} className='md:hidden'>
@@ -37,9 +40,9 @@ export const Navbar: React.FC = () => {
               >
                 <div className='flex text-center place-content-center gap-2'>
                   Home 
-                  <span className='mt-1'>
+                  {/* <span className='mt-1'>
                     <FaChevronDown className='hover:scale-110 transition-transform' />
-                  </span>
+                  </span> */}
                 </div>
               </NavLink>
             </li>

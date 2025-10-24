@@ -33,7 +33,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       {/* Name and Price*/}
       <div className="flex justify-between items-center font-inter font-medium text-[#121212]">
         <h1>{product.name}</h1>
-        <h1>#{product.price}</h1>
+        <h1>₦{product.price}</h1>
       </div>
       {/* Specification */}
       <div>

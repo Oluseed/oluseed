@@ -6,7 +6,6 @@ import svg_3 from '../../assets/images/Icon Illustration.svg'
 import image_1 from '../../assets/images/Group 5.svg'
 import svg_4 from '../../assets/images/Icon Digital Painting.svg'
 import svg_5 from '../../assets/images/Icon 3D.svg'
-import { NavLink } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 
 const cardVariants = {
@@ -71,39 +70,39 @@ const OurService: React.FC = () => {
             <h1 className='font-semibold text-3xl md:text-5xl'>What We Serve</h1>
             <h1 className='font-semibold text-3xl text-[#0071E3] md:text-5xl'>For Your Business</h1>
           </div>
-          <button className='hidden md:block bg-[#0071E3] rounded-xl px-3 text-white place-self-center font-sora text-sm h-12 hover:bg-blue-500 cursor-pointer'>Our Portfolio</button>
+          {/* <button className='hidden md:block bg-[#0071E3] rounded-xl px-3 text-white place-self-center font-sora text-sm h-12 hover:bg-blue-500 cursor-pointer'>Our Portfolio</button> */}
         </div>
 
         <div className='grid grid-cols-1 place-self-center md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4 '>
           {[
             {
               svg: svg_1,
-              title: "Research and Analysis",
+              title: "Graphics Design",
               desc: "Product that have a good appearance can attract users",
               dark: false,
             },
             {
               svg: svg_2,
-              title: "Custom Product Development",
-              desc: "Product identity is needed to have a characteristic",
+              title: "UIUX",
+              desc: "Crafting seamless experiences in pixels: Where creativity meets functionality.✨",
               dark: true,
             },
             {
               svg: svg_3,
               title: "Web Development",
-              desc: "3D design is something new and has a high chance",
+              desc: "Transforming ideas into interactive realities. 🚀💻 Crafting flawless websites that speak volumes.",
               dark: false,
             },
             {
               svg: svg_4,
               title: "Digital Marketing",
-              desc: "Make your product more eye-catching with a touch of illustration",
+              desc: "Elevating brands in the digital realm. 🚀✨ Crafting compelling narratives, fostering connections, and driving results.",
               dark: false,
             },
             {
               svg: svg_5,
-              title: "Product Design",
-              desc: "In this era, digital painting is still very popular with young people",
+              title: "ICT Training",
+              desc: "Empowering minds in the digital age: Unlocking the potential of tomorrow's leaders through ICT training. 💻🌐. available for online and onsite for kids, teenagers,adult training and organization training",
               dark: false,
             }
           ].map((item, i) => (
@@ -114,15 +113,15 @@ const OurService: React.FC = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={cardVariants}
-              className={`${item.dark ? 'bg-[#0071E3] text-white' : 'bg-white'} grid gap-2 rounded-3xl w-70 p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 md:w-80 md:py-10`}
+              className={`${item.dark ? 'bg-[#0071E3] text-white' : 'bg-white'} grid gap-2 rounded-3xl w-70 p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 md:w-80 md:py-7`}
             >
               <img src={item.svg} alt={item.title} className='w-10 h-15 md:w-17 md:h-20 md:mb-3'/>
               <h1 className='font-semibold md:text-xl font-poppins'>{item.title}</h1>
-              <p className={`font-poppins font-[200] text-[15px] leading-7 ${item.dark ? 'text-[#f3f3f3]' : 'text-gray-500'}`} style={{ fontWeight: "400" }}>
+              <p className={`font-poppins font-[200] text-[14px] leading-6 ${item.dark ? 'text-[#f3f3f3]' : 'text-gray-500'}`} style={{ fontWeight: "400" }}>
                 {item.desc}
               </p>
               <div className='flex mt-3 items-center gap-2 font-light cursor-pointer hover:underline'>
-                <NavLink to="/contact" className={'font-clashDisplay font-medium'}>Contact Us</NavLink>
+                <a href="/contact" className={'font-clashDisplay font-medium'}>Contact Us</a>
                 <FaArrowRight className='inline ml-2 font'/>
               </div>
             </motion.div>
