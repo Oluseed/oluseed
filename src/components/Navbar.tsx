@@ -4,7 +4,7 @@ import { FaXmark } from 'react-icons/fa6'
 import { NavLink } from 'react-router'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from './Button'
-import logo from '../assets/images/logo-1.jpg'
+import logo from '../assets/images/1000302584.png'
 
 export const Navbar: React.FC = () => {
   const [ismenuOpen, setIsMenuOpen] = React.useState(false)
@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
         {/* Logo */}
         <NavLink to="/" className="items-center font-sora">
           <div className='flex items-center gap-2 ml-3'>
-            <img src={logo} alt="Logo" className='w-35 object-cover'/>
+            <img src={logo} alt="Logo" className='w-15 h-15 object-contain'/>
           </div>
         </NavLink>
         {/* Mobile View */}
