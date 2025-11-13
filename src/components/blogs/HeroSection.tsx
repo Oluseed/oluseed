@@ -54,7 +54,7 @@ export const HeroSection: React.FC = () => {
           />
           <h1 className="font-clashDisplay text-center text-[#25262A] font-medium text-3xl sm:text-4xl md:text-5xl">
             Our Blog
-            <span className="text-[#0071E3]"> Post</span>
+            <span className="text-[#0f04ff]"> Post</span>
           </h1>
         </motion.div>
 

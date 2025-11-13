@@ -30,7 +30,7 @@ const OurService: React.FC = () => {
         className='bg-[#25262A] mt-4 pt-7 pb-10 place-self-center shadow-2xs text-white rounded-3xl h-auto grid font-sora md:mt-1 md:absolute top-100 md:px-5 md:py-5 lg:px-12 lg:py-7'
       >
         <div className='flex flex-col gap-3 mt-3 md:flex-row md:place-content-center lg:gap-3'>
-          <div className='bg-[#0071E3] mx-10 rounded-4xl w-50 p-3 place-self-center md:mx-0 md:w-50 md:gap-5 lg:w-70'>
+          <div className='bg-[#0f04ff] mx-10 rounded-4xl w-50 p-3 place-self-center md:mx-0 md:w-50 md:gap-5 lg:w-70'>
             <div className='flex justify-between md:mt-2'>
               <div className='grid place-content-center md:ml-5 '>
                 <h1 className='text-2xl font-extrabold md:text-3xl font-clashDisplay'>50K+</h1>
@@ -68,9 +68,9 @@ const OurService: React.FC = () => {
         <div className='flex justify-between mb-5'>
           <div className='grid gap-2'>
             <h1 className='font-semibold text-3xl md:text-5xl'>What We Serve</h1>
-            <h1 className='font-semibold text-3xl text-[#0071E3] md:text-5xl'>For Your Business</h1>
+            <h1 className='font-semibold text-3xl text-[#0f04ff] md:text-5xl'>For Your Business</h1>
           </div>
-          {/* <button className='hidden md:block bg-[#0071E3] rounded-xl px-3 text-white place-self-center font-sora text-sm h-12 hover:bg-blue-500 cursor-pointer'>Our Portfolio</button> */}
+          {/* <button className='hidden md:block bg-[#0f04ff] rounded-xl px-3 text-white place-self-center font-sora text-sm h-12 hover:bg-blue-500 cursor-pointer'>Our Portfolio</button> */}
         </div>
 
         <div className='grid grid-cols-1 place-self-center md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4 '>
@@ -89,7 +89,7 @@ const OurService: React.FC = () => {
             },
             {
               svg: svg_3,
-              title: "Web Development",
+              title: "Web Design and Development",
               desc: "Transforming ideas into interactive realities. 🚀💻 Crafting flawless websites that speak volumes.",
               dark: false,
             },
@@ -104,6 +104,13 @@ const OurService: React.FC = () => {
               title: "ICT Training",
               desc: "Empowering minds in the digital age: Unlocking the potential of tomorrow's leaders through ICT training. 💻🌐. available for online and onsite for kids, teenagers,adult training and organization training",
               dark: false,
+            },
+            {
+              svg: svg_3,
+              title: "Mobile App Development",
+              desc: "Bringing the world to your fingertips: Crafting innovative mobile apps that redefine convenience and connectivity. 📱🚀",
+              dark: true,
+
             }
           ].map((item, i) => (
             <motion.div
@@ -113,7 +120,7 @@ const OurService: React.FC = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={cardVariants}
-              className={`${item.dark ? 'bg-[#0071E3] text-white' : 'bg-white'} grid gap-2 rounded-3xl w-70 p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 md:w-80 md:py-7`}
+              className={`${item.dark ? 'bg-[#0f04ff] text-white' : 'bg-white'} grid gap-2 rounded-3xl w-70 p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 md:w-80 md:py-7`}
             >
               <img src={item.svg} alt={item.title} className='w-10 h-15 md:w-17 md:h-20 md:mb-3'/>
               <h1 className='font-semibold md:text-xl font-poppins'>{item.title}</h1>

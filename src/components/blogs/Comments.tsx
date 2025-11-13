@@ -140,7 +140,7 @@ export const Comments: React.FC<CommentsProps> = ({ blog }) => {
 
           <button
             type="submit"
-            className="px-6 py-2 bg-[#0071E3] text-white font-medium rounded-md hover:bg-[#333] transition-colors w-full font-poppins sm:w-auto"
+            className="px-6 py-2 bg-[#0f04ff] text-white font-medium rounded-md hover:bg-[#333] transition-colors w-full font-poppins sm:w-auto"
           >
             Post Comment
           </button>

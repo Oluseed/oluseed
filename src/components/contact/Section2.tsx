@@ -26,7 +26,7 @@ const Section2: React.FC = () => {
 
         {/* FORM SECTION */}
         <div className="w-full lg:w-1/2 bg-white p-6 sm:p-8 rounded-xl shadow-md">
-          <h3 className="text-2xl font-clashDisplay font-semibold text-[#0071E3] mb-6">
+          <h3 className="text-2xl font-clashDisplay font-semibold text-[#0f04ff] mb-6">
             Leave a Comment
           </h3>
 
@@ -34,7 +34,7 @@ const Section2: React.FC = () => {
             {/* Name and Email */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-poppins text-[#0071E3] mb-1">
+                <label className="block text-sm font-poppins text-[#0f04ff] mb-1">
                   Name
                 </label>
                 <input
@@ -42,12 +42,12 @@ const Section2: React.FC = () => {
                   placeholder="Enter your name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#0071E3]"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#0f04ff]"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-poppins text-[#0071E3] mb-1">
+                <label className="block text-sm font-poppins text-[#0f04ff] mb-1">
                   Email
                 </label>
                 <input
@@ -55,28 +55,28 @@ const Section2: React.FC = () => {
                   placeholder="Enter your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#0071E3]"
+                  className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#0f04ff]"
                 />
               </div>
             </div>
 
             {/* Comment */}
             <div>
-              <label className="block text-sm font-poppins text-[#0071E3] mb-1">
+              <label className="block text-sm font-poppins text-[#0f04ff] mb-1">
                 Comment
               </label>
               <textarea
                 placeholder="Write your comment..."
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#0071E3] h-28 resize-none"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#0f04ff] h-28 resize-none"
               />
             </div>
 
             {/* Button */}
             <button
               type="submit"
-              className="w-full sm:w-auto px-6 py-3 bg-[#0071E3] text-white font-poppins font-medium rounded-md hover:bg-[#333] transition-colors"
+              className="w-full sm:w-auto px-6 py-3 bg-[#0f04ff] text-white font-poppins font-medium rounded-md hover:bg-[#333] transition-colors"
             >
               Post Comment
             </button>

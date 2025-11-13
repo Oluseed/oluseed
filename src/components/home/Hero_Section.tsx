@@ -29,8 +29,8 @@ const Hero_Section: React.FC = () => {
             <p className='text-[15px] font-poppins font-semibold text-[#1E1E1E]'>50K+ Satisfied Customer</p>
           </div>
           <div className='text-center mt-3'>
-            <h1 className='text-3xl md:text-5xl font-semibold'>Empty Life Without </h1>
-            <h1 className='text-3xl md:text-5xl font-semibold text-[#0071E3]'>Beautiful Design</h1>
+            <h1 className='text-3xl md:text-5xl font-semibold'>Ignition, Development and </h1>
+            <h1 className='text-3xl md:text-5xl font-semibold text-[#0f04ff]'>Advancement</h1>
           </div>
           <p className='text-center place-self-center font-normal text-[#25262A] mt-2 text-sm md:text-[15px] font-poppins md:w-100 md:mt-4'>
             We create and design applications, websites,

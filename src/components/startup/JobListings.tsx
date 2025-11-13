@@ -23,7 +23,7 @@ const JobListings: React.FC<JobsProps> = ({ jobs }) => {
           {/* Role */}
           <h3 className='hidden sm:block font-inter font-normal'>{job.role}</h3>
           {/* Apply */}
-          <button className='bg-[#0071E3] cursor-pointer text-white font-poppins font-medium text-[11px] px-10 rounded-lg'>
+          <button className='bg-[#0f04ff] cursor-pointer text-white font-poppins font-medium text-[11px] px-10 rounded-lg'>
             Apply
           </button>
         </div>

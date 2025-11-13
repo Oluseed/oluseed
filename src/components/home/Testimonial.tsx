@@ -35,7 +35,7 @@ const Testimonial: React.FC = () => {
         <h1 className='font-clashDisplay font-semibold text-3xl md:text-5xl mt-10 ml-2'>
           What Our
           <br />
-          <span className='text-[#0071E3] font-bold'>Satisfied</span> Clients Say
+          <span className='text-[#0f04ff] font-bold'>Satisfied</span> Clients Say
         </h1>
       </div>
 
@@ -47,7 +47,7 @@ const Testimonial: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-            className={`${testimonial.isCenter ? 'bg-[#0071E3] text-white' : 'bg-white shadow-sm'} shadow-2xl m-5 sm:mx-30 md:mx-0 rounded-3xl p-5 grid place-content-center px-5 md:py-15`}
+            className={`${testimonial.isCenter ? 'bg-[#0f04ff] text-white' : 'bg-white shadow-sm'} shadow-2xl m-5 sm:mx-30 md:mx-0 rounded-3xl p-5 grid place-content-center px-5 md:py-15`}
           >
             <div className='flex gap-3'>
               <img src={testimonial.image} alt="client-image" />

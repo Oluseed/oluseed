@@ -53,7 +53,7 @@ const WhyOluseed: React.FC = () => {
         transition={{ duration: 0.7, delay: 0.2 }}
         viewport={{ once: true }}
       >
-        <h6 className='font-poppins text-[#0071E3] font-[500] uppercase lg:text-xl'>
+        <h6 className='font-poppins text-[#0f04ff] font-[500] uppercase lg:text-xl'>
           Why Choose Us
         </h6>
 
@@ -79,7 +79,7 @@ const WhyOluseed: React.FC = () => {
                 className='w-15 h-15 lg:w-20 lg:h-20'
               />
               <div className='grid gap-2'>
-                <h1 className='text-[#0071E3] font-poppins font-bold text-[15px] lg:text-xl'>
+                <h1 className='text-[#0f04ff] font-poppins font-bold text-[15px] lg:text-xl'>
                   {data.heading}
                 </h1>
                 <p className='font-poppins text-[#818181] font-medium text-[13px] pr-1 lg:font-[400] lg:text-[14px]'>

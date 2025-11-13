@@ -40,7 +40,7 @@ const Faq: React.FC = () => {
   return (
     <section className='pb-10'>
       <h1 className='font-clashDisplay font-semibold text-3xl mt-10 md:text-5xl text-center'>
-        Frequently Asked <span className='text-[#0071E3]'>Questions</span>
+        Frequently Asked <span className='text-[#0f04ff]'>Questions</span>
       </h1>
 
       <div className='mt-8 shadow-2xl pb-5 pt-5 rounded-2xl m-2 md:mx-30 lg:mx-60'>
@@ -55,9 +55,9 @@ const Faq: React.FC = () => {
               </h1>
               <div>
                 {openIndex === index ? (
-                  <HiOutlineMinus size={26} color='#0071E3' />
+                  <HiOutlineMinus size={26} color='#0f04ff' />
                 ) : (
-                  <HiOutlinePlus size={26} color='#0071E3' />
+                  <HiOutlinePlus size={26} color='#0f04ff' />
                 )}
               </div>
             </div>

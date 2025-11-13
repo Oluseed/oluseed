@@ -62,7 +62,7 @@ export const Section2: React.FC = () => {
             className="bg-white rounded-3xl shadow-md hover:shadow-lg transition-all p-8 flex flex-col gap-3"
           >
             <h2 className="font-clashDisplay font-semibold text-2xl md:text-3xl text-[#25262A] flex items-center gap-2">
-              <span className="text-[#0071E3] text-5xl leading-none">•</span>
+              <span className="text-[#0f04ff] text-5xl leading-none">•</span>
               {item.title}
             </h2>
             <p className="text-[#4b4c4d] text-[15px] md:text-[17px] leading-7">
@@ -82,7 +82,7 @@ export const Section2: React.FC = () => {
       >
         <div className="flex flex-wrap justify-center gap-8 md:gap-10 lg:gap-14">
           {/* Card 1 */}
-          <div className="bg-[#0071E3] rounded-3xl px-6 py-6 md:py-8 text-center w-[180px] md:w-[220px]">
+          <div className="bg-[#0f04ff] rounded-3xl px-6 py-6 md:py-8 text-center w-[180px] md:w-[220px]">
             <div className="flex justify-center items-center mb-3">
               <img src={image_1} alt="arrow" className="w-6 md:w-8" />
             </div>

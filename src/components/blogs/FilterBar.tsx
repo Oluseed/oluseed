@@ -41,7 +41,7 @@ const FilterBar: React.FC<FilterBarProps> = ({ setBlogCategory }) => {
         </button>
         <button
           onClick={handleFilter}
-          className=" text-lg text-gray-800 hover:text-[#0071E3] transition-colors cursor-pointer"
+          className=" text-lg text-gray-800 hover:text-[#0f04ff] transition-colors cursor-pointer"
         >
           <FiFilter />
         </button>

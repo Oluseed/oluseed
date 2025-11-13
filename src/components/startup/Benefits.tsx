@@ -38,7 +38,7 @@ const Benefits: React.FC = () => {
     <section className="w-full px-4 sm:px-8 lg:px-16 py-10">
       {/* Section Title */}
       <div className="text-center mb-8">
-        <h1 className="font-clashDisplay text-[#0071E3] text-3xl font-semibold">
+        <h1 className="font-clashDisplay text-[#0f04ff] text-3xl font-semibold">
           Benefits
         </h1>
         <p className="text-[#0A1017] font-poppins text-sm mt-1 max-w-lg mx-auto">
@@ -83,7 +83,7 @@ const Benefits: React.FC = () => {
               className="w-16 h-16 object-contain mb-3 sm:mb-0 sm:mr-4"
             />
             <div className="text-center sm:text-left">
-              <h2 className="font-clashDisplay text-[#0071E3] font-semibold text-lg mb-1">
+              <h2 className="font-clashDisplay text-[#0f04ff] font-semibold text-lg mb-1">
                 {benefit.title}
               </h2>
               <p className="font-poppins text-[#0A1017] text-sm leading-relaxed">

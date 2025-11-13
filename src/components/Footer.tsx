@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             className="w-full px-4 py-3 pr-28 rounded font-poppins bg-white text-gray-700 focus:outline-none text-sm"
           />
           <button
-            className="absolute right-1 top-1 bottom-1 px-4 bg-[#0071E3] text-white font-sora text-[10px] md:text-sm cursor-pointer rounded-xl hover:bg-blue-600"
+            className="absolute right-1 top-1 bottom-1 px-4 bg-[#0f04ff] text-white font-sora text-[10px] md:text-sm cursor-pointer rounded-xl hover:bg-blue-600"
           >
             Subscribe
           </button>

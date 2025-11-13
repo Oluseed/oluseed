@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
           <div className='grid'>
             <h1 className='text-3xl font-semibold sm:text-2xl md:text-3xl lg:text-5xl'>Projects We</h1>
             <h1 className='text-3xl font-semibold sm:text-2xl md:text-3xl lg:text-5xl'>
-              have <span className='text-[#0071E3]'>Completed</span>
+              have <span className='text-[#0f04ff]'>Completed</span>
             </h1>
           </div>
           <div className='hidden md:flex md:items-center md:gap-2'>
@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
               <Button
                 text='View all work'
                 className="
-                  bg-[#0071E3] text-white 
+                  bg-[#0f04ff] text-white 
                   shadow-md px-3
                   py-2 rounded-xl
                   font-[400] text-[10px] 

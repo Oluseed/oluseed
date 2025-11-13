@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:font-normal hover:text-[#0071e3]"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:font-normal hover:text-[#0f04ff]"
                 }
               >
                 <div className='flex text-center place-content-center gap-2'>
@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/works" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
                 Our Works
@@ -60,7 +60,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/about" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
                 About Us
@@ -70,7 +70,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/blogs" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
                 Our Blog
@@ -80,7 +80,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/startup" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
                 Start up
@@ -90,7 +90,7 @@ export const Navbar: React.FC = () => {
               <NavLink 
                 to="/Shop" 
                 className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0071E3] hover:font-normal"
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
                 Shop
@@ -102,7 +102,7 @@ export const Navbar: React.FC = () => {
             <NavLink to={'/contact'}>
                 <Button
                   text='Contact Us'
-                  className='bg-[#0071E3] rounded-xl px-6 py-3.5 cursor-pointer flex text-center md:block font-clashDisplay text-white'
+                  className='bg-[#0f04ff] rounded-xl px-6 py-3.5 cursor-pointer flex text-center md:block font-clashDisplay text-white'
                 />
             </NavLink>
             
@@ -192,7 +192,7 @@ export const Navbar: React.FC = () => {
                   <Button
                     onClick={showMenu}
                     text='Contact Us'
-                    className='bg-[#0071E3] rounded-xl px-10 py-4 flex text-center text-white'
+                    className='bg-[#0f04ff] rounded-xl px-10 py-4 flex text-center text-white'
                   />
                 </li>                  
               </ul>

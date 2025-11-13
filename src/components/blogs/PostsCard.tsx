@@ -72,7 +72,7 @@ export const PostsCard: React.FC<PostsCardProps> = ({ blog }) => {
             </div>
             
             {/* Date */}
-            <div className="grid w-13 h-13 place-content-center bg-[#0071E3] text-[14px] text-[#FFFFFF] font-clashDisplay rounded-full font-medium">
+            <div className="grid w-13 h-13 place-content-center bg-[#0f04ff] text-[14px] text-[#FFFFFF] font-clashDisplay rounded-full font-medium">
               <p>{item.date.day} / <br /> {item.date.month}</p>
             </div>
           </div>

@@ -41,7 +41,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </div>
       {/* Checkout */}
       <div className="place-self-center">
-        <button className="bg-[#FF4C05] text-[#ffffff] p-2 px-4 font-inter font-medium text-sm rounded-full hover:bg-[#121212] hover:text-white transition duration-300 cursor-pointer">
+        <button className="bg-[#0f04ff] text-[#ffffff] p-2 px-4 font-inter font-medium text-sm rounded-full hover:bg-[#121212] hover:text-white transition duration-300 cursor-pointer">
           Buy Now
         </button>
       </div>
