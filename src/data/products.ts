@@ -1,7 +1,5 @@
 import Image_1 from '../assets/images/shop-1.png'
 import Image_2 from '../assets/images/shop-2.png'
-import Image_3 from '../assets/images/shop-3.png'
-import Image_4 from '../assets/images/shop-4.png'
 
 export const products = [
   {
