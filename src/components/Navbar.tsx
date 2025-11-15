@@ -48,16 +48,6 @@ export const Navbar: React.FC = () => {
             </li>
             <li>
               <NavLink 
-                to="/works" 
-                className={({ isActive }) => 
-                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
-              }
-              >
-                Our Works
-              </NavLink>
-            </li>
-            <li>
-              <NavLink 
                 to="/about" 
                 className={({ isActive }) => 
                   isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
@@ -68,14 +58,14 @@ export const Navbar: React.FC = () => {
             </li>
             <li>
               <NavLink 
-                to="/blogs" 
+                to="/works" 
                 className={({ isActive }) => 
                   isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
-                Our Blog
+                Our Works
               </NavLink>
-            </li> 
+            </li>
             <li>
               <NavLink 
                 to="/startup" 
@@ -85,7 +75,7 @@ export const Navbar: React.FC = () => {
               >
                 Start up
               </NavLink>
-            </li>       
+            </li> 
             <li>
               <NavLink 
                 to="/Shop" 
@@ -95,7 +85,19 @@ export const Navbar: React.FC = () => {
               >
                 Shop
               </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                to="/blogs" 
+                className={({ isActive }) => 
+                  isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
+              }
+              >
+                Blog
+              </NavLink>
             </li> 
+                  
+             
           </ul>
         </div>
           <div className='hidden md:block'>
@@ -135,17 +137,6 @@ export const Navbar: React.FC = () => {
                 </li>
                 <li>
                   <NavLink 
-                    to="/works" 
-                    onClick={showMenu}
-                    className={({ isActive }) => 
-                      isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
-                  }
-                  >
-                    Our Works
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink 
                     onClick={showMenu}
                     to="/about" 
                     className={({ isActive }) => 
@@ -157,13 +148,13 @@ export const Navbar: React.FC = () => {
                 </li>
                 <li>
                   <NavLink 
+                    to="/works" 
                     onClick={showMenu}
-                    to="/blogs" 
                     className={({ isActive }) => 
                       isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
                   }
                   >
-                    Our Blog
+                    Our Works
                   </NavLink>
                 </li>
                 <li>
@@ -188,6 +179,18 @@ export const Navbar: React.FC = () => {
                     Shop
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink 
+                    onClick={showMenu}
+                    to="/blogs" 
+                    className={({ isActive }) => 
+                      isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
+                  }
+                  >
+                    Blog
+                  </NavLink>
+                </li>
+                
                 <li>
                   <Button
                     onClick={showMenu}

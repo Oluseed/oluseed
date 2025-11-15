@@ -70,48 +70,21 @@ const OurService: React.FC = () => {
             <h1 className='font-semibold text-3xl md:text-5xl'>What We Serve</h1>
             <h1 className='font-semibold text-3xl text-[#0f04ff] md:text-5xl'>For Your Business</h1>
           </div>
-          {/* <button className='hidden md:block bg-[#0f04ff] rounded-xl px-3 text-white place-self-center font-sora text-sm h-12 hover:bg-blue-500 cursor-pointer'>Our Portfolio</button> */}
         </div>
 
-        <div className='grid grid-cols-1 place-self-center md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4 '>
+        <div className='grid grid-cols-1 place-self-center md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4'>
           {[
-            {
-              svg: svg_1,
-              title: "Graphics Design",
-              desc: "Product that have a good appearance can attract users",
-              dark: false,
-            },
-            {
-              svg: svg_2,
-              title: "UIUX",
-              desc: "Crafting seamless experiences in pixels: Where creativity meets functionality.✨",
-              dark: true,
-            },
-            {
-              svg: svg_3,
-              title: "Web Design and Development",
-              desc: "Transforming ideas into interactive realities. 🚀💻 Crafting flawless websites that speak volumes.",
-              dark: false,
-            },
-            {
-              svg: svg_4,
-              title: "Digital Marketing",
-              desc: "Elevating brands in the digital realm. 🚀✨ Crafting compelling narratives, fostering connections, and driving results.",
-              dark: false,
-            },
-            {
-              svg: svg_5,
-              title: "ICT Training",
-              desc: "Empowering minds in the digital age: Unlocking the potential of tomorrow's leaders through ICT training. 💻🌐. available for online and onsite for kids, teenagers,adult training and organization training",
-              dark: false,
-            },
-            {
-              svg: svg_3,
-              title: "Mobile App Development",
-              desc: "Bringing the world to your fingertips: Crafting innovative mobile apps that redefine convenience and connectivity. 📱🚀",
-              dark: true,
-
-            }
+            { svg: svg_1, title: "Graphics Design", desc: "Product that have a good appearance can attract users", dark: false },
+            { svg: svg_2, title: "UIUX", desc: "Crafting seamless experiences in pixels.", dark: false },
+            { svg: svg_3, title: "Web Design and Development", desc: "Transforming ideas into websites.", dark: false },
+            { svg: svg_4, title: "Software Development", desc: "Building powerful digital tools.", dark: false },
+            { svg: svg_4, title: "Cloud Computing", desc: "Reliable cloud infrastructure & operations.", dark: false },
+            { svg: svg_5, title: "Digital Marketing", desc: "Amplifying your brand visibility.", dark: false },
+            { svg: svg_5, title: "Cyber Security", desc: "Protecting your digital assets.", dark: false },
+            { svg: svg_5, title: "Data Science", desc: "Transforming data into decisions.", dark: false },
+            { svg: svg_5, title: "Project Management", desc: "Delivering successful outcomes.", dark: false },
+            { svg: svg_5, title: "ICT Training", desc: "Tech skills training for all ages.", dark: false },
+            { svg: svg_3, title: "Mobile App Development", desc: "Apps designed for performance.", dark: false },
           ].map((item, i) => (
             <motion.div
               key={i}
@@ -120,16 +93,32 @@ const OurService: React.FC = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={cardVariants}
-              className={`${item.dark ? 'bg-[#0f04ff] text-white' : 'bg-white'} grid gap-2 rounded-3xl w-70 p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 md:w-80 md:py-7`}
+              className={`
+                group relative rounded-3xl w-70 p-4 shadow-lg md:w-80 md:py-7
+                transition-all duration-300 cursor-pointer
+                ${item.dark ? "bg-[#0f04ff] text-white" : "bg-white text-black"}
+                hover:bg-[#0f04ff] hover:text-white hover:shadow-xl
+              `}
             >
-              <img src={item.svg} alt={item.title} className='w-10 h-15 md:w-17 md:h-20 md:mb-3'/>
-              <h1 className='font-semibold md:text-xl font-poppins'>{item.title}</h1>
-              <p className={`font-poppins font-[200] text-[14px] leading-6 ${item.dark ? 'text-[#f3f3f3]' : 'text-gray-500'}`} style={{ fontWeight: "400" }}>
+              <img
+                src={item.svg}
+                alt={item.title}
+                className='w-10 h-15 md:w-17 md:h-20 md:mb-3 filter group-hover:brightness-200 transition'
+              />
+
+              <h1 className='font-semibold md:text-xl font-poppins'>
+                {item.title}
+              </h1>
+
+              <p className='font-poppins text-[14px] leading-6 text-gray-600 group-hover:text-gray-200'>
                 {item.desc}
               </p>
-              <div className='flex mt-3 items-center gap-2 font-light cursor-pointer hover:underline'>
-                <a href="/contact" className={'font-clashDisplay font-medium'}>Contact Us</a>
-                <FaArrowRight className='inline ml-2 font'/>
+
+              <div className='flex mt-3 items-center gap-2 font-light group-hover:text-white'>
+                <a href="/contact" className='font-clashDisplay font-medium'>
+                  Contact Us
+                </a>
+                <FaArrowRight className='inline ml-2' />
               </div>
             </motion.div>
           ))}
