@@ -1,33 +1,39 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router'
 import NavArrow from '../assets/images/Group 5.svg'
-import { Link } from 'react-router';
 
 type ProjectProps = {
-  title: string;
-  description: string;
-  image: string;
-};
+  title: string
+  description: string
+  image: string
+  link: string
+}
 
-
-export const ProjectsCard: React.FC<ProjectProps> = ({ 
+export const ProjectsCard: React.FC<ProjectProps> = ({
   title,
   description,
   image,
+  link
 }) => {
   return (
-    <div 
-      className='h-70 w-80 mr-2 rounded-3xl grid justify-between gap-10 mt-5 md:hover:scale-100 md:h-90 '
-      style={{ backgroundImage: `url(${image})` }}>
-      <Link to='/'>
-        <div className='place-self-end  bg-white m-3 p-5 rounded-full'>
-          <img src={NavArrow} alt="Go to project page" />
+    <div
+      className="rounded-3xl overflow-hidden shadow-lg bg-cover bg-center h-[380px] w-full grid justify-between"
+      style={{ backgroundImage: `url(${image})` }}
+    >
+      {/* Top arrow */}
+      <Link to={link} target="_blank" rel="noopener noreferrer">
+        <div className="place-self-end bg-white m-3 p-4 rounded-full shadow-sm hover:shadow-md transition">
+          <img src={NavArrow} alt="Open project" className="w-5 h-5" />
         </div>
       </Link>
-      <div className='bg-white rounded-2xl h-auto grid place-content-center mb-3 mx-2 px-3 md:h-25 md:place-self-end'>
-        <h1 className='font-bold text-xl font-clashDisplay'>{title}</h1>
-        <p className='font-poppins font-light text-[14px] mt-2 text-[#25262A]'>{description}</p>
+
+      {/* Description section */}
+      <div className="bg-white bg-opacity-95 rounded-2xl p-4 mx-3 mb-3">
+        <h1 className="font-bold text-lg font-clashDisplay">{title}</h1>
+        <p className="font-poppins font-light text-sm mt-2 text-[#25262A]">
+          {description}
+        </p>
       </div>
     </div>
-    
-  );
-};
+  )
+}

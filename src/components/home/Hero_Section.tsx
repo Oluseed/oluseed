@@ -26,7 +26,7 @@ const Hero_Section: React.FC = () => {
               alt="Image of people" 
               className="w-20"
             />
-            <p className='text-[15px] font-poppins font-semibold text-[#1E1E1E]'>50K+ Satisfied Customer</p>
+            <p className='text-[15px] font-poppins font-semibold text-[#1E1E1E]'>200 Satisfied Customer</p>
           </div>
           <div className='text-center mt-3'>
             <h1 className='text-3xl md:text-5xl font-semibold'>Ignition, Development and </h1>

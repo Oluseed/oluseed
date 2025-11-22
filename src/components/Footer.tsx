@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
           <div>
             <h1 className="font-sora text-lg">Oluseed</h1>
             <p className="text-[13px] font-[200] leading-relaxed">
-              Empowering Brands, Igniting Creativity — A Symphony of Innovation
+              IGINITION, DEVELOPMENT AND ADVANCEMENT
             </p>
           </div>
           <div className="flex gap-5 text-lg">
@@ -68,10 +68,10 @@ const Footer: React.FC = () => {
           <div>
             <h2 className="font-sora font-semibold mb-2">Contact</h2>
             <ul className="grid gap-2">
-              <li>Forestry Shopping Complex, Agunbelewo, Osogbo, Nigeria</li>
+              <li>No 21d Olaoluwa Estate Okinni, Osogbo, Osun State, Nigeria</li>
               <li>+2348066859951</li>
               <li>+2348054823562</li>
-              <li>oluseed@gmail.com</li>
+              <li>info@oluseed.com</li>
             </ul>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Button } from '../Button'
+import speakafricans_image from '../../assets/images/speakafricans.png'
+import ekoglass from '../../assets/images/ekoglass.png'
 import project_image_1 from '../../assets/images/box-image-1.svg'
 import { ProjectsCard } from '../ProjectsCard'
 import { motion } from 'framer-motion'
@@ -7,61 +9,64 @@ import { motion } from 'framer-motion'
 const Projects: React.FC = () => {
   const projectLists = [
     {
-      title: 'AR 3D Design Concept',
-      description: 'AR creation with 3D design to solve problems with.',
-      image: project_image_1
+      title: 'SpeakAfricans',
+      description:
+        'SpeakAfricans is a platform where users can learn African languages from the grassroots using AI-powered tools. It started as a personal idea and evolved into a company project currently under development.',
+      image: speakafricans_image,
+      link: 'https://speakafricans.com'
     },
     {
-      title: 'Web development',
-      description: 'AR creation with 3D design to solve problems with.',
-      image: project_image_1
+      title: 'Olastute Inventory System',
+      description:
+        'Olastute is an inventory management system built for stores and companies that buy and sell goods. Version one tracks stock efficiently. The second version is in development with a full admin dashboard.',
+      image: project_image_1,
+      link: 'https://olavent.netlify.app/'
     },
     {
-      title: 'AR 3D Design Concept',
-      description: 'AR creation with 3D design to solve problems with.',
-      image: project_image_1
+      title: 'Eko Glass Software',
+      description:
+        'A customized office management system for a company based in Canada. It streamlines administrative processes and ensures efficient workflow management.',
+      image: ekoglass,
+      link: 'http://portal.ekoglass.com.ng/'
     }
   ]
 
   return (
-    <section className='bg-[#ffffff] h-full grid font-clashDisplay mt-4 p-2 lg:p-5'>
+    <section className="bg-[#ffffff] h-full grid font-clashDisplay mt-4 p-4 lg:p-6">
       <motion.div
-        className='grid'
+        className="grid"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
         viewport={{ once: true }}
       >
-        <div className='flex justify-between'>
-          <div className='grid'>
-            <h1 className='text-3xl font-semibold sm:text-2xl md:text-3xl lg:text-5xl'>Projects We</h1>
-            <h1 className='text-3xl font-semibold sm:text-2xl md:text-3xl lg:text-5xl'>
-              have <span className='text-[#0f04ff]'>Completed</span>
+        {/* Header */}
+        <div className="flex justify-between items-center">
+          <div>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold">Projects We</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold">
+              Have <span className="text-[#0f04ff]">Completed</span>
             </h1>
           </div>
-          <div className='hidden md:flex md:items-center md:gap-2'>
+
+          <div className="hidden md:flex items-center gap-3">
             <a href="/contact">
               <Button
-                text='Start New Project'
-                className='
-                  hidden sm:block 
-                  sm:bg-white sm:shadow-md 
-                  sm:p-2 sm:rounded
-                  sm:font-medium sm:text-[14px]
-                  lg:text-base lg:cursor-pointer
-                '
+                text="Start New Project"
+                className="
+                  hidden sm:block bg-white shadow-md 
+                  px-4 py-2 rounded font-medium 
+                  text-sm lg:text-base hover:shadow-lg
+                "
               />
             </a>
+
             <a href="/works">
               <Button
-                text='View all work'
+                text="View All Work"
                 className="
-                  bg-[#0f04ff] text-white 
-                  shadow-md px-3
-                  py-2 rounded-xl
-                  font-[400] text-[10px] 
-                  sm:text-sm lg:text-base
-                  lg:cursor-pointer
+                  bg-[#0f04ff] text-white shadow-md px-4 py-2 rounded-xl 
+                  font-medium text-sm lg:text-base
                 "
               />
             </a>
@@ -70,33 +75,26 @@ const Projects: React.FC = () => {
 
         {/* Projects Grid */}
         <motion.ul
-          className='grid grid-cols-1 place-self-center md:grid-cols-2 lg:grid-cols-3 gap-3 mt-4'
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 place-self-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={{
             visible: {
-              transition: {
-                staggerChildren: 0.2
-              }
+              transition: { staggerChildren: 0.2 }
             }
           }}
         >
           {projectLists.map((project, index) => (
             <motion.li
               key={index}
-              className='transform transition-transform cursor-pointer duration-300 hover:scale-105'
+              className="transform transition-transform duration-300 hover:scale-105"
               variants={{
                 hidden: { opacity: 0, scale: 0.9, y: 30 },
                 visible: { opacity: 1, scale: 1, y: 0 }
               }}
-              transition={{ duration: 0.5, ease: 'easeOut' }}
             >
-              <ProjectsCard
-                title={project.title}
-                description={project.description}
-                image={project.image}
-              />
+              <ProjectsCard {...project} />
             </motion.li>
           ))}
         </motion.ul>
