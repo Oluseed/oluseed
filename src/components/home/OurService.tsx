@@ -60,12 +60,11 @@ const OurService: React.FC = () => {
             </p>
           </div>
 
-          {/* Stats items */}
           {[{ num: "9+", label: "Years Experience" },
             { num: "20", label: "Professional Designer" },
             { num: "1K", label: "Digital Product" }
           ].map((stat, i) => (
-            <div key={i} className='bg-[#0f04ff] place-self-center py-10 rounded-4xl grid place-content-center w-50 md:w-40'>
+            <div key={i} className='bg-white text-black hover:text-white hover:bg-[#0f04ff] place-self-center py-10 rounded-4xl grid place-content-center w-50 md:w-40'>
               <h1 className='text-3xl font-extrabold text-center font-clashDisplay'>{stat.num}</h1>
               <p className='font-poppins text-center mt-2 text-sm font-medium'>{stat.label}</p>
             </div>
@@ -96,32 +95,32 @@ const OurService: React.FC = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={cardVariants}
-              className={`
+              className='
                 group relative rounded-3xl w-70 p-4 md:w-80 md:py-7 shadow-lg transition-all duration-300 cursor-pointer
-                bg-[#0f04ff] text-white 
-                hover:bg-white hover:text-[#0f04ff] hover:shadow-xl
-              `}
+                bg-white text-[#0f04ff]
+                hover:bg-[#0f04ff] hover:text-white hover:shadow-xl
+              '
             >
               <img
                 src={item.svg}
                 alt={item.title}
                 className='w-10 h-15 md:w-17 md:h-20 md:mb-3
-                filter brightness-200 group-hover:brightness-0 transition'
+                brightness-0 group-hover:brightness-200 transition'
               />
 
               <h1 className='font-semibold md:text-xl font-poppins'>
                 {item.title}
               </h1>
 
-              <p className='font-poppins text-[14px] leading-6 text-gray-200 group-hover:text-gray-600'>
+              <p className='font-poppins text-[14px] leading-6 text-gray-600 group-hover:text-gray-200'>
                 {item.desc}
               </p>
 
               <div className='flex mt-3 items-center gap-2'>
-                <a href="/contact" className='font-clashDisplay font-medium'>
+                <a href="/contact" className='font-clashDisplay font-medium group-hover:text-white'>
                   Contact Us
                 </a>
-                <FaArrowRight className='inline ml-2 group-hover:text-[#0f04ff]' />
+                <FaArrowRight className='inline ml-2 group-hover:text-white' />
               </div>
             </motion.div>
           ))}

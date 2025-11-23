@@ -23,11 +23,11 @@ const ContactDetails: React.FC = () => {
           Location
         </h1>
         <p className="text-[#5B5B5B] font-poppins text-sm text-center">
-          Visit our headquarters around the world.
+          Visit our office
         </p>
         <div className="bg-[#FFFFFF] text-[#05131D] font-poppins mt-5 grid place-content-center gap-3 p-5 rounded-xl">
           <div className="text-center">
-            Forestry Shopping Complex, Agunbelewo, Osogbo, Nigeria
+            No 21d Olaoluwa Estate Okinni, Osogbo, Osun State, Nigeria
           </div>
           {/* <div className="text-center">
             260 Springs Crossing, <br /> Canton, Georgia, USA
@@ -50,7 +50,7 @@ const ContactDetails: React.FC = () => {
           Have a project in mind? Send a message.
         </p>
         <div className="bg-[#FFFFFF] text-[#05131D] font-poppins mt-5 grid place-content-center p-5 rounded-xl">
-          <p>oluseed@gmail.com</p>
+          <p>info@oluseed.com</p>
         </div>
       </div>
     </div>

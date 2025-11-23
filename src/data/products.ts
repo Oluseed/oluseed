@@ -13,29 +13,29 @@ export const products = [
   },
   {
     id: 2,
-    name: "Booster",
+    name: "Xprinter",
     price: 95000,
     spec: "Intel Core i5, 8GB RAM, 500GB HDD, 14-inch Display",
     image: Image_2,
-    category: "Booster",
+    category: "Xprinter",
     description: "The EliteBook 820 is a surprisingly attractive Ultrabook with a tapered design, contrasting lid and side colors and a magnesium casing. The laptop passed a number of MIL-STD 810G tests for things like dust, drops and vibrational shock. It feels solid and it should appeal to those who feel that ThinkPads are dull matte black blocks.the most enchanting thing in a sea of similarly spec'd and sealed Ultrabooks is the removable bottom panel. This grants easy access to all internals including the battery, socketed WiFi + Bluetooth card, 2.5 SATA HDD/SSD drive bay, a flash cache slot (optional for HDDs to speed them up) and a WAN card slot. HP offers 3G HSPA+ and 4G LTE broadband cards for $109 and $229 respectively. "
   },
   {
     id: 4,
-    name: "Printer",
-    price: 45000,
-    spec: "HP LaserJet Pro M15w",
-    image: Image_1,
-    category: "SPrinter",
-    description: "Compact and efficient, the HP LaserJet Pro M15w is perfect for small spaces. It offers wireless printing capabilities and produces high-quality text documents quickly."
-  },
-  {
-    id: 5,
-    name: "StarLink Router",
+    name: "Starlink",
     price: 45000,
     spec: "HP LaserJet Pro M15w",
     image: Image_1,
     category: "StarLink",
+    description: "Compact and efficient, the HP LaserJet Pro M15w is perfect for small spaces. It offers wireless printing capabilities and produces high-quality text documents quickly."
+  },
+  {
+    id: 5,
+    name: "Booster",
+    price: 45000,
+    spec: "HP LaserJet Pro M15w",
+    image: Image_1,
+    category: "Booster",
     description: "Compact and efficient, the HP LaserJet Pro M15w is perfect for small spaces. It offers wireless printing capabilities and produces high-quality text documents quickly."
   }
 ]

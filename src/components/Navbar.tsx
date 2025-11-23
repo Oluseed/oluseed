@@ -73,7 +73,7 @@ export const Navbar: React.FC = () => {
                   isActive ? "font-semibold text-sm text-[#25262A]" : "text-[#25262A] font-extralight text-[12px] hover:text-[#0f04ff] hover:font-normal"
               }
               >
-                Start up
+                Career
               </NavLink>
             </li> 
             <li>
@@ -165,7 +165,7 @@ export const Navbar: React.FC = () => {
                       isActive ? "font-semibold text-xl text-[#25262A]" : "text-[#25262A] font-extralight text-xl"
                   }
                   >
-                    Start up
+                    Career
                   </NavLink>
                 </li>
                 <li>

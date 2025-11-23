@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router';
 import { Navbar } from '../components/Navbar';
 import Footer from '../components/Footer';
+import WhatsAppButton from '../components/WhatsappButton';
 
 export const MainLayout: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ export const MainLayout: React.FC = () => {
         </main>
         <Footer />
       </div>
+      <WhatsAppButton phoneNumber="+2348066859951" />
     </div>
   );
 };

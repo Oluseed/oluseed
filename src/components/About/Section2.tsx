@@ -86,25 +86,25 @@ export const Section2: React.FC = () => {
             <div className="flex justify-center items-center mb-3">
               <img src={image_1} alt="arrow" className="w-6 md:w-8" />
             </div>
-            <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">50K+</h1>
+            <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">200</h1>
             <p className="text-sm md:text-base mt-1 font-medium">Satisfied Clients</p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white text-black rounded-3xl px-6 py-8 text-center w-[180px] md:w-[220px] shadow-sm">
-            <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">13+</h1>
+          <div className="bg-white hover:bg-[#0f04ff] hover:text-white text-black rounded-3xl px-6 py-8 text-center w-[180px] md:w-[220px] shadow-sm">
+            <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">9+</h1>
             <p className="text-sm md:text-base mt-2 font-medium">Years Experience</p>
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white text-black rounded-3xl px-6 py-8 text-center w-[180px] md:w-[220px] shadow-sm">
+          <div className="bg-white hover:bg-[#0f04ff] hover:text-white text-black rounded-3xl px-6 py-8 text-center w-[180px] md:w-[220px] shadow-sm">
             <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">20</h1>
             <p className="text-sm md:text-base mt-2 font-medium">Professional Designers</p>
           </div>
 
           {/* Card 4 */}
-          <div className="bg-white text-black rounded-3xl px-6 py-8 text-center w-[180px] md:w-[220px] shadow-sm">
-            <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">10K</h1>
+          <div className="bg-white hover:bg-[#0f04ff] hover:text-white text-black rounded-3xl px-6 py-8 text-center w-[180px] md:w-[220px] shadow-sm">
+            <h1 className="text-3xl md:text-4xl font-extrabold font-clashDisplay">1K</h1>
             <p className="text-sm md:text-base mt-2 font-medium">Digital Products</p>
           </div>
         </div>
