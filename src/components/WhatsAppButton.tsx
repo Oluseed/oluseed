@@ -21,8 +21,8 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
       onClick={openWhatsApp}
       className="
         fixed bottom-6 right-6 z-50
-        bg-[#25D366]
-        hover:bg-[#0f04ff]
+        hover:bg-[#25D366]
+        bg-[#0f04ff]
         text-white shadow-xl
         rounded-full p-4 md:p-5
         flex items-center justify-center
