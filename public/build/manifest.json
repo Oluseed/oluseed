@@ -1,0 +1,48 @@
+{
+  "resources/js/assets/fonts/ClashDisplay-Bold.woff2": {
+    "file": "assets/ClashDisplay-Bold-YaCnK2PY.woff2",
+    "src": "resources/js/assets/fonts/ClashDisplay-Bold.woff2"
+  },
+  "resources/js/assets/fonts/ClashDisplay-Light.woff2": {
+    "file": "assets/ClashDisplay-Light-DIjv0-nY.woff2",
+    "src": "resources/js/assets/fonts/ClashDisplay-Light.woff2"
+  },
+  "resources/js/assets/fonts/ClashDisplay-Medium.woff2": {
+    "file": "assets/ClashDisplay-Medium-BPdWq--j.woff2",
+    "src": "resources/js/assets/fonts/ClashDisplay-Medium.woff2"
+  },
+  "resources/js/assets/fonts/ClashDisplay-Regular.woff2": {
+    "file": "assets/ClashDisplay-Regular-DhusH4GR.woff2",
+    "src": "resources/js/assets/fonts/ClashDisplay-Regular.woff2"
+  },
+  "resources/js/assets/fonts/ClashDisplay-Semibold.woff2": {
+    "file": "assets/ClashDisplay-Semibold-DcA1xgJG.woff2",
+    "src": "resources/js/assets/fonts/ClashDisplay-Semibold.woff2"
+  },
+  "resources/js/assets/images/1000302584.png": {
+    "file": "assets/1000302584-Cw4fwW97.png",
+    "src": "resources/js/assets/images/1000302584.png"
+  },
+  "resources/js/assets/images/Frame 34130.svg": {
+    "file": "assets/Frame 34130-sPOiTg_W.svg",
+    "src": "resources/js/assets/images/Frame 34130.svg"
+  },
+  "resources/js/main.tsx": {
+    "file": "assets/main-AQ0VeJnV.js",
+    "name": "main",
+    "src": "resources/js/main.tsx",
+    "isEntry": true,
+    "css": [
+      "assets/main-oqZekVD1.css"
+    ],
+    "assets": [
+      "assets/1000302584-Cw4fwW97.png",
+      "assets/Frame 34130-sPOiTg_W.svg",
+      "assets/ClashDisplay-Light-DIjv0-nY.woff2",
+      "assets/ClashDisplay-Regular-DhusH4GR.woff2",
+      "assets/ClashDisplay-Medium-BPdWq--j.woff2",
+      "assets/ClashDisplay-Semibold-DcA1xgJG.woff2",
+      "assets/ClashDisplay-Bold-YaCnK2PY.woff2"
+    ]
+  }
+}

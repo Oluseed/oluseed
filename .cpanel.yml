@@ -1,0 +1,17 @@
+---
+# cPanel Git Version Control deployment.
+#
+# cPanel clones this repository (e.g. into ~/repositories/oluseed) and runs
+# the tasks below on each "Deploy HEAD Commit". The script keeps the Laravel
+# application outside the web root and publishes only public/ into
+# public_html, then runs migrations.
+#
+# Override the defaults by exporting variables before the script runs:
+#   APP_DIR  where the Laravel app lives        (default: $HOME/oluseed)
+#   WEB_DIR  the domain's document root         (default: $HOME/public_html)
+#   PHP_BIN  the PHP 8.3+ binary to use         (default: php)
+deployment:
+  tasks:
+    - export APP_DIR=$HOME/oluseed
+    - export WEB_DIR=$HOME/public_html
+    - /bin/bash ./deploy/cpanel.sh

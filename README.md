@@ -98,6 +98,18 @@ All endpoints live under `/api` (see `routes/api.php`). Public: `GET content`, `
 
 The admin password in the dump is the bcrypt hash of `ADMIN_PASSWORD` at generation time (default `admin123`). Changing `ADMIN_PASSWORD` in `.env` later re-syncs the stored hash on the next login. To regenerate the dump after changing migrations or default content, run `php database/sql/build.php`.
 
+## Deploying on cPanel with Git Version Control
+
+The repository includes `.cpanel.yml` and `deploy/cpanel.sh`. The built front end (`public/build`) is committed, so the host does not need Node.
+
+1. In cPanel open **Git Version Control > Create**, paste the repository URL and choose a clone path such as `/home/USERNAME/repositories/oluseed`.
+2. Open **Manage > Pull or Deploy > Deploy HEAD Commit**. The first deploy copies the app to `~/oluseed`, publishes `public/` into `~/public_html`, points `index.php` at the app, links `/storage` for uploads and creates `~/oluseed/.env`.
+3. Edit `~/oluseed/.env` (File Manager or Terminal): set `APP_URL`, the `DB_*` values for the MySQL database you created (import `database/sql/oluseed.sql` in phpMyAdmin, or leave it empty and let the deploy run migrations), and `ADMIN_EMAIL` / `ADMIN_PASSWORD`.
+4. Deploy again. The script installs Composer dependencies (if `composer` is available on the host, otherwise run `composer install --no-dev` in `~/oluseed` from the cPanel Terminal once), runs migrations, seeds defaults and caches config.
+5. Make sure the domain's PHP version is 8.3 or newer (**MultiPHP Manager**).
+
+Every later push to GitHub followed by **Deploy HEAD Commit** (or **Pull or Deploy > Update from Remote** then deploy) updates the site. `.env`, `storage/` and uploads are never overwritten. To deploy to an addon domain, change `APP_DIR` and `WEB_DIR` at the top of `.cpanel.yml`.
+
 ## Deploying
 
 1. Set `APP_ENV=production`, `APP_DEBUG=false`, `APP_URL`, your database credentials and the admin credentials in `.env`.
