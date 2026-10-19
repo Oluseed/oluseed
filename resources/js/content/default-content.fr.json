@@ -1,0 +1,753 @@
+{
+  "brand": {
+    "name": "Oluseed",
+    "tagline": "Impulsion, développement et progrès.",
+    "email": "info@oluseed.com",
+    "phones": [
+      "+234 806 685 9951",
+      "+234 805 482 3562"
+    ],
+    "address": "No 21d Olaoluwa Estate Okinni, Osogbo, État d'Osun, Nigéria",
+    "whatsapp": "2348066859951",
+    "rc": "RC 1664920",
+    "socials": {
+      "instagram": "https://www.instagram.com/oluseedtech/",
+      "x": "https://x.com/oluseedtech",
+      "linkedin": "https://www.linkedin.com/oluseed",
+      "facebook": "https://web.facebook.com/oluseedtech"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Plus de 200 clients nous font confiance",
+      "line1": "Impulsion,",
+      "line2": "développement et",
+      "line3": "progrès.",
+      "description": "Nous concevons et développons des applications, des sites web et des produits numériques qui donnent aux entreprises le contrôle. Stratégie, savoir-faire et code, livrés avec professionnalisme.",
+      "primaryCta": "Lancer un projet",
+      "secondaryCta": "Voir nos réalisations",
+      "image": "/images/herobg-1.png",
+      "imageEyebrow": "Depuis 2016",
+      "imageCaption": "Construire avec intention",
+      "cardOneValue": "9+",
+      "cardOneLabel": "Années d'expérience",
+      "cardTwoValue": "1K",
+      "cardTwoTitle": "Produits numériques",
+      "cardTwoLabel": "Livrés et maintenus"
+    },
+    "clients": [
+      "SpeakAfricans",
+      "Eko Glass",
+      "Nursing Spectrum",
+      "NBA Osogbo",
+      "Remitex",
+      "Thuram Healthcare",
+      "Oshus Freight",
+      "Olastute",
+      "Samace"
+    ]
+  },
+  "stats": [
+    {
+      "value": 200,
+      "suffix": "+",
+      "label": "Clients satisfaits",
+      "note": "Des experts de leur secteur dans le monde entier"
+    },
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Années d'expérience",
+      "note": "Créée en 2016, enregistrée en 2020"
+    },
+    {
+      "value": 20,
+      "suffix": "",
+      "label": "Designers professionnels",
+      "note": "Une équipe interne pluridisciplinaire"
+    },
+    {
+      "value": 1,
+      "suffix": "K",
+      "label": "Produits numériques",
+      "note": "Sites, applications et plateformes"
+    }
+  ],
+  "services": {
+    "eyebrow": "Nos services",
+    "title": "Tout ce dont votre entreprise a besoin pour réussir en ligne.",
+    "highlight": "réussir en ligne.",
+    "description": "Onze disciplines sous un même toit, du premier croquis au dernier déploiement.",
+    "items": [
+      {
+        "icon": "layout",
+        "title": "Design UI/UX",
+        "desc": "Des expériences fluides, fondées sur la recherche, pixel par pixel.",
+        "wide": true
+      },
+      {
+        "icon": "code",
+        "title": "Conception et développement web",
+        "desc": "Nous transformons vos idées en sites web performants de classe mondiale.",
+        "wide": false
+      },
+      {
+        "icon": "smartphone",
+        "title": "Développement d'applications mobiles",
+        "desc": "Des applications natives et multiplateformes conçues pour la performance et l'usage.",
+        "wide": false
+      },
+      {
+        "icon": "cpu",
+        "title": "Développement logiciel",
+        "desc": "Des outils numériques puissants et évolutifs, adaptés à vos opérations.",
+        "wide": true
+      },
+      {
+        "icon": "pen",
+        "title": "Design graphique",
+        "desc": "Une identité visuelle attrayante qui attire et convertit.",
+        "wide": false
+      },
+      {
+        "icon": "cloud",
+        "title": "Cloud computing",
+        "desc": "Infrastructure cloud fiable, migration et exploitation.",
+        "wide": false
+      },
+      {
+        "icon": "trending",
+        "title": "Marketing digital",
+        "desc": "Amplifiez la visibilité de votre marque avec des campagnes mesurables.",
+        "wide": false
+      },
+      {
+        "icon": "shield",
+        "title": "Cybersécurité",
+        "desc": "Protégez vos actifs numériques avec des outils modernes et des audits.",
+        "wide": false
+      },
+      {
+        "icon": "database",
+        "title": "Science des données",
+        "desc": "Transformez vos données brutes en informations exploitables.",
+        "wide": false
+      },
+      {
+        "icon": "clipboard",
+        "title": "Gestion de projet",
+        "desc": "Des résultats livrés dans les délais et le budget.",
+        "wide": false
+      },
+      {
+        "icon": "book",
+        "title": "Formation TIC",
+        "desc": "Des formations technologiques professionnelles pour tous les âges et niveaux.",
+        "wide": false
+      }
+    ]
+  },
+  "projectsSection": {
+    "eyebrow": "Réalisations choisies",
+    "title": "Des projets que nous avons livrés.",
+    "highlight": "livrés.",
+    "description": "Quelques produits que nous avons conçus, développés et livrés pour des clients au Nigéria, au Canada et en Afrique du Sud."
+  },
+  "projects": [
+    {
+      "id": "speakafricans",
+      "title": "SpeakAfricans",
+      "tag": "EdTech · IA",
+      "category": "Plateformes",
+      "description": "Une plateforme pour apprendre les langues africaines dès la base avec des outils propulsés par l'IA.",
+      "image": "/images/speakafricans.png",
+      "link": "https://speakafricans.com",
+      "featured": true
+    },
+    {
+      "id": "olastute",
+      "title": "Système d'inventaire Olastute",
+      "tag": "SaaS · Inventaire",
+      "category": "Entreprise",
+      "description": "Stocks, ventes et registres pour les boutiques et entreprises, avec un tableau de bord complet en v2.",
+      "image": "/images/olastute.png",
+      "link": "https://olavent.netlify.app",
+      "featured": true
+    },
+    {
+      "id": "ekoglass",
+      "title": "Logiciel Eko Glass",
+      "tag": "Entreprise · Canada",
+      "category": "Entreprise",
+      "description": "Un système de gestion de bureau sur mesure qui fluidifie les processus administratifs.",
+      "image": "/images/ekoglass.png",
+      "link": "http://portal.ekoglass.com.ng/",
+      "featured": true
+    },
+    {
+      "id": "thuram",
+      "title": "Thuram Healthcare",
+      "tag": "Santé",
+      "category": "Santé",
+      "description": "Un système de gestion hospitalière avec recrutement du personnel et outils d'exploitation.",
+      "image": "/images/thuram.png",
+      "link": "https://thuramhealthcare.ca/",
+      "featured": false
+    },
+    {
+      "id": "recycling",
+      "title": "Gestion du recyclage",
+      "tag": "Opérations",
+      "category": "Entreprise",
+      "description": "Un système de gestion des flux de recyclage conçu pour optimiser le traitement des déchets.",
+      "image": "/images/recycling.png",
+      "link": "https://gjc-delta.vercel.app/",
+      "featured": false
+    },
+    {
+      "id": "nursing",
+      "title": "Nursing Spectrum",
+      "tag": "Emploi",
+      "category": "Santé",
+      "description": "Une plateforme de réservation d'emplois pour les infirmiers à la recherche d'opportunités internationales.",
+      "image": "/images/nursing.png",
+      "link": "https://nursingspectrum.com/",
+      "featured": false
+    },
+    {
+      "id": "oshus",
+      "title": "Oshus Freight Services",
+      "tag": "Logistique · AfS",
+      "category": "Plateformes",
+      "description": "Un système de messagerie et de logistique pour la gestion des colis en Afrique du Sud.",
+      "image": "/images/oshtrack.png",
+      "link": "https://courier.oshusfreightservices.com/",
+      "featured": false
+    },
+    {
+      "id": "nba",
+      "title": "Vote électronique NBA Osogbo",
+      "tag": "GovTech",
+      "category": "Plateformes",
+      "description": "Une plateforme de vote électronique sécurisée pour l'Association du barreau nigérian.",
+      "image": "/images/nba.png",
+      "link": "https://vote.nbaosogbo.org/",
+      "featured": false
+    },
+    {
+      "id": "remitex",
+      "title": "Remitex Fintech",
+      "tag": "Transferts",
+      "category": "Fintech",
+      "description": "Une solution fintech multiplateforme de transfert d'argent, en cours de développement.",
+      "image": "/images/remitex.png",
+      "link": "https://remitex.co",
+      "featured": false
+    },
+    {
+      "id": "srms",
+      "title": "Gestion des résultats étudiants",
+      "tag": "Éducation",
+      "category": "Plateformes",
+      "description": "Un système complet de gestion des résultats pour les écoles polytechniques et les collèges.",
+      "image": "/images/studentgrading.png",
+      "link": "https://srms.wetfieldinc.com/",
+      "featured": false
+    },
+    {
+      "id": "vehicle",
+      "title": "Renouvellement de documents véhicule",
+      "tag": "Automobile",
+      "category": "Plateformes",
+      "description": "Une plateforme qui simplifie le renouvellement des permis, papiers et documents de véhicules.",
+      "image": "/images/vehicle.png",
+      "link": "https://vehicle-docs-app.onrender.com/admin/login",
+      "featured": false
+    },
+    {
+      "id": "samace",
+      "title": "Système RH et bureau industriel",
+      "tag": "Pharma",
+      "category": "Entreprise",
+      "description": "Un système RH et de gestion sur mesure pour une entreprise pharmaceutique.",
+      "image": "/images/samace.png",
+      "link": "https://samace-2-0.vercel.app/login",
+      "featured": false
+    }
+  ],
+  "why": {
+    "eyebrow": "Pourquoi nous choisir",
+    "title": "Les avantages de travailler avec nous.",
+    "highlight": "avantages",
+    "image": "/images/why-oluseed-image.svg",
+    "rating": "4.9",
+    "delivered": "1 000+",
+    "benefits": [
+      {
+        "icon": "target",
+        "heading": "Des résultats prouvés",
+        "description": "Nous livrons des résultats mesurables qui stimulent la croissance. Notre historique de projets réussis et de clients satisfaits témoigne de notre capacité à transformer les défis en opportunités."
+      },
+      {
+        "icon": "award",
+        "heading": "Expertise et expérience",
+        "description": "Forte de ses années d'expérience, notre équipe apporte une connaissance approfondie et des solutions innovantes à chaque projet, pour que votre entreprise profite des meilleures stratégies et pratiques."
+      },
+      {
+        "icon": "chart",
+        "heading": "Des décisions fondées sur les données",
+        "description": "Nous utilisons l'analyse et le reporting pour prendre des décisions fondées sur des preuves et orientées vers les résultats."
+      }
+    ],
+    "checks": [
+      "Processus transparent",
+      "Chef de projet dédié",
+      "Support après lancement",
+      "Livraison dans les délais"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Témoignages",
+    "title": "Ce que disent nos clients satisfaits.",
+    "highlight": "satisfaits.",
+    "description": "Les mots sincères des fondateurs et des équipes avec qui nous avons eu le privilège de construire.",
+    "items": [
+      {
+        "name": "Samuel Adekunle",
+        "role": "Fondateur, SpeakAfricans",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=SpeakAfricans",
+        "featured": false,
+        "review": "Notre système d'apprentissage des langues africaines n'était qu'une idée avant d'être transformé en une plateforme pleinement fonctionnelle. Interface soignée, performances rapides et backend bien structuré."
+      },
+      {
+        "name": "Derrick White",
+        "role": "Responsable des opérations, Eko Glass Canada",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=EkoGlass",
+        "featured": true,
+        "review": "Le système de gestion de bureau sur mesure a énormément simplifié nos opérations. L'intégration du personnel, le suivi des flux et le reporting n'ont jamais été aussi faciles. Une exécution de classe mondiale."
+      },
+      {
+        "name": "Chloe Mendez",
+        "role": "PDG, Nursing Spectrum",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=NursingSpectrum",
+        "featured": false,
+        "review": "Le système de réservation d'emplois a dépassé nos attentes. Sa simplicité, sa rapidité et sa fiabilité ont nettement amélioré la façon dont les infirmiers trouvent des opportunités internationales."
+      },
+      {
+        "name": "Tebogo Mahlangu",
+        "role": "Fondateur, Oshus Freight Services",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=OshusFreight",
+        "featured": false,
+        "review": "Notre plateforme de logistique et de gestion des colis est devenue bien plus efficace et automatisée. Le souci du détail et la capacité à résoudre les problèmes ont été remarquables."
+      },
+      {
+        "name": "Me Ajibola Akin",
+        "role": "Coordinateur, NBA Osogbo",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=NBAOsogbo",
+        "featured": true,
+        "review": "Le système de vote électronique livré était sécurisé, fiable et construit avec professionnalisme. Il a absorbé un fort trafic sans accroc pendant les élections. Un travail remarquable en performance comme en sécurité."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes.",
+    "highlight": "fréquentes.",
+    "description": "Tout ce que vous pourriez vouloir savoir avant que nous commencions à travailler ensemble.",
+    "items": [
+      {
+        "q": "Travaillez-vous avec des entreprises de tous les secteurs ?",
+        "a": "Oui. Nous avons livré des projets pour l'éducation, la santé, la logistique, le droit, la fintech et l'industrie. Chaque mission commence par une phase de découverte afin de comprendre votre secteur avant de concevoir quoi que ce soit."
+      },
+      {
+        "q": "Combien de temps faut-il pour voir des résultats ?",
+        "a": "Cela dépend du périmètre. Les actions de marketing digital montrent souvent des progrès en quelques mois, tandis que les projets plus importants comme un logiciel sur mesure ou une refonte de marque suivent une feuille de route par étapes avec des jalons que vous pouvez suivre."
+      },
+      {
+        "q": "Quels indicateurs utilisez-vous pour mesurer le succès ?",
+        "a": "Nous convenons dès le départ d'indicateurs propres à chaque client : croissance du chiffre d'affaires, taux de conversion, engagement, génération de prospects, notoriété de la marque et retour sur investissement."
+      },
+      {
+        "q": "Pouvez-vous adapter vos services à mon entreprise ?",
+        "a": "Absolument. Nous adaptons nos services à vos besoins, à votre secteur et à vos objectifs de croissance plutôt que d'imposer une offre standard."
+      },
+      {
+        "q": "Et si j'ai besoin d'un accompagnement continu ?",
+        "a": "Nous proposons des formules de support continu comprenant la surveillance, l'optimisation, les mises à jour de sécurité et des revues de performance régulières."
+      }
+    ]
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "À propos d'Oluseed Technologies",
+      "title": "Nous donnons aux marques une domination numérique complète.",
+      "highlight": "domination numérique",
+      "description": "Dans un monde où la survie des entreprises dépend d'un contrôle stratégique, nos solutions web de pointe donnent aux entreprises un contrôle total et la confiance nécessaire pour garder une longueur d'avance.",
+      "image": "/images/workbg.png"
+    },
+    "work": {
+      "eyebrow": "Nos réalisations",
+      "title": "Quelques projets dont nous sommes fiers.",
+      "highlight": "fiers.",
+      "description": "Applications, sites web et plateformes conçus et développés avec professionnalisme pour des clients au Nigéria, au Canada et en Afrique du Sud.",
+      "image": "/images/workbg.png"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Parlez-nous de votre projet.",
+      "highlight": "votre projet.",
+      "description": "Un projet en tête, une question, ou simplement envie de dire bonjour ? Nous répondons généralement sous un jour ouvré.",
+      "image": "/images/workbg.png"
+    },
+    "blog": {
+      "eyebrow": "Notre blog",
+      "title": "Idées, analyses et leçons du studio.",
+      "highlight": "analyses",
+      "description": "Des notes sur le design, l'ingénierie et la croissance d'une entreprise technologique, écrites par ceux qui font le travail.",
+      "image": "/images/workbg.png"
+    },
+    "shop": {
+      "eyebrow": "Boutique",
+      "title": "Du matériel de qualité, sélectionné par nos ingénieurs.",
+      "highlight": "sélectionné",
+      "description": "Ordinateurs portables, imprimantes, connectivité et accessoires auxquels nous faisons confiance dans notre propre travail. Commandez directement via WhatsApp.",
+      "image": "/images/shop-img.png"
+    },
+    "careers": {
+      "eyebrow": "Carrières chez Oluseed",
+      "title": "Construisez l'avenir avec une équipe qui livre.",
+      "highlight": "livre.",
+      "description": "Rejoignez-nous pour bâtir un grand avenir pour les startups comme pour les grandes entreprises. Des postes compatibles avec le télétravail, une vraie responsabilité et un travail qui compte.",
+      "image": "/images/startup-img.png"
+    },
+    "internships": {
+      "eyebrow": "Stages",
+      "title": "Apprenez en livrant de vrais produits.",
+      "highlight": "vrais produits.",
+      "description": "Des stages rémunérés et encadrés pour les étudiants et jeunes diplômés qui veulent créer des logiciels réellement utilisés. Compatibles avec le télétravail, avec un mentor dédié et un vrai projet dès la première semaine.",
+      "image": "/images/startup-img.png"
+    }
+  },
+  "about": {
+    "storyEyebrow": "Notre histoire",
+    "storyTitle": "Des solutions informatiques fortes d'années d'expérience.",
+    "storyHighlight": "d'expérience.",
+    "story": "Oluseed Technologies Limited (RC 1664920) est une entreprise technologique née en 2016 comme société de robotique, puis enregistrée auprès de la Corporate Affairs Commission le 5 mars 2020. Aujourd'hui, nous proposons la conception de sites et d'applications, des logiciels, la science des données, la cybersécurité, le marketing digital, la robotique, les systèmes embarqués, la gestion de projet, l'accompagnement des startups et des services TIC généraux, en maintenant l'efficacité de nos opérations et en nous concentrant sur la résolution des problèmes informatiques à l'échelle mondiale.",
+    "capabilities": [
+      "Conception et développement web",
+      "Conception et développement d'applications",
+      "Logiciels",
+      "Science des données",
+      "Conception de jeux",
+      "Réseaux",
+      "Services de cybersécurité",
+      "Marketing digital",
+      "Animation",
+      "Programmation robotique",
+      "Systèmes embarqués",
+      "Gestion de projet",
+      "Services aux startups",
+      "Installation solaire",
+      "Vidéosurveillance",
+      "Vente d'ordinateurs et d'électronique",
+      "Branding et rebranding",
+      "Renforcement des capacités"
+    ],
+    "missionTitle": "Mission",
+    "mission": "Donner aux entreprises des solutions web de pointe qui stimulent la croissance, renforcent la visibilité de la marque et favorisent un engagement client significatif.",
+    "visionTitle": "Vision",
+    "vision": "Devenir le fournisseur de solutions numériques de référence, reconnu pour transformer les marques en forces dominantes en ligne grâce à l'innovation et à l'excellence.",
+    "howEyebrow": "Notre façon de travailler",
+    "howTitle": "Révéler le succès grâce à une technologie phénoménale et une expertise stratégique.",
+    "howHighlight": "technologie phénoménale",
+    "howDescription": "Une équipe de choc et des outils de pointe, dédiés au développement web, au design, au marketing et aux logiciels sur mesure de premier plan. Nous ne construisons pas seulement des sites web : nous positionnons les entreprises au sommet de leur marché.",
+    "imageOne": "/images/about-us-1.png",
+    "imageTwo": "/images/herobg-1.png",
+    "values": [
+      {
+        "title": "Le soin avant les raccourcis",
+        "text": "Nous soignons les détails parce qu'ils construisent la confiance."
+      },
+      {
+        "title": "Des délais honnêtes",
+        "text": "Un périmètre clair, des jalons clairs, pas de surprises."
+      },
+      {
+        "title": "Conçu pour durer",
+        "text": "Du code maintenable et des systèmes qui grandissent avec vous."
+      }
+    ]
+  },
+  "contact": {
+    "phoneText": "Nous avons hâte de travailler ensemble.",
+    "locationText": "Venez nous rendre visite.",
+    "emailText": "Un projet en tête ? Envoyez-nous un message.",
+    "mapsUrl": "https://maps.google.com/?q=Olaoluwa+Estate+Okinni+Osogbo",
+    "formEyebrow": "Envoyer un message",
+    "formTitle": "Dites-nous ce que vous construisez.",
+    "formHighlight": "construisez.",
+    "formDescription": "Partagez quelques détails et nous reviendrons vers vous avec les prochaines étapes, un calendrier et une estimation honnête.",
+    "formImage": "/images/about-us-1.png"
+  },
+  "careers": {
+    "departments": [
+      "Ingénierie",
+      "Design",
+      "Marketing",
+      "Ventes",
+      "Opérations clients"
+    ],
+    "jobs": [
+      {
+        "id": "frontend-dev",
+        "title": "Développeur·se front-end",
+        "department": "Ingénierie",
+        "role": "Stage - À distance",
+        "description": "Construisez des interfaces réactives et animées avec React, TypeScript et Tailwind aux côtés de nos ingénieurs seniors.",
+        "open": true
+      },
+      {
+        "id": "backend-eng",
+        "title": "Ingénieur·e back-end",
+        "department": "Ingénierie",
+        "role": "Étudiant·e SIWES",
+        "description": "Concevez des API, des modèles de données et des intégrations pour les produits que nous livrons à nos clients.",
+        "open": true
+      },
+      {
+        "id": "card-ops",
+        "title": "Opérations cartes",
+        "department": "Opérations clients",
+        "role": "Stage - À distance",
+        "description": "Accompagnez les clients, traitez les demandes et aidez-nous à faire tourner les opérations sans accroc.",
+        "open": true
+      }
+    ],
+    "perksEyebrow": "Avantages",
+    "perksTitle": "Bien plus qu'un salaire compétitif.",
+    "perksHighlight": "compétitif.",
+    "perksDescription": "Quelques-unes des ressources que nous offrons pour aider notre équipe à exceller.",
+    "perks": [
+      {
+        "title": "Assurance santé",
+        "description": "Une couverture santé complète pour vous et votre famille.",
+        "image": "/images/benefit01.png"
+      },
+      {
+        "title": "Des collègues brillants et bienveillants",
+        "description": "Travaillez avec une équipe de professionnels talentueux et solidaires.",
+        "image": "/images/benefit02.png"
+      },
+      {
+        "title": "Développement professionnel",
+        "description": "Nous investissons dans nos équipes pour qu'elles atteignent leurs objectifs à court, moyen et long terme.",
+        "image": "/images/benefit03.png"
+      },
+      {
+        "title": "Congés annuels",
+        "description": "Chaque membre de l'équipe dispose de jusqu'à 30 jours de congés annuels, et nous l'encourageons vivement à les prendre.",
+        "image": "/images/benefit04.png"
+      }
+    ]
+  },
+  "shop": {
+    "products": [
+      {
+        "id": "dell-latitude-e5440",
+        "name": "Dell Latitude e5440",
+        "price": 120000,
+        "spec": "Intel Core i5, 8 Go de RAM, SSD 256 Go, écran 14 pouces",
+        "image": "/images/shop-1.png",
+        "category": "Ordinateur portable",
+        "description": "Un ordinateur portable professionnel fiable, avec une construction solide, un stockage SSD rapide et un clavier confortable. Inspecté et testé par nos ingénieurs avant livraison.",
+        "inStock": true
+      },
+      {
+        "id": "xprinter",
+        "name": "Imprimante thermique Xprinter",
+        "price": 95000,
+        "spec": "Imprimante de reçus thermique 80 mm, USB + LAN",
+        "image": "/images/shop-2.png",
+        "category": "Imprimante",
+        "description": "Impression de reçus thermique rapide et silencieuse pour les boutiques et restaurants. Compatible dès l'installation avec notre système d'inventaire Olastute.",
+        "inStock": true
+      },
+      {
+        "id": "starlink",
+        "name": "Kit Starlink Standard",
+        "price": 450000,
+        "spec": "Kit internet par satellite avec routeur et support",
+        "image": "/images/shop-3.png",
+        "category": "Connectivité",
+        "description": "Internet par satellite haut débit et à faible latence pour les maisons et bureaux partout au Nigéria. Conseils d'installation inclus.",
+        "inStock": true
+      },
+      {
+        "id": "booster",
+        "name": "Amplificateur de signal réseau",
+        "price": 45000,
+        "spec": "Amplificateur de signal mobile bi-bande, couverture 300 m²",
+        "image": "/images/shop-4.png",
+        "category": "Connectivité",
+        "description": "Amplifie un signal mobile faible à l'intérieur des bâtiments pour des appels et des données fiables.",
+        "inStock": true
+      }
+    ]
+  },
+  "blog": {
+    "posts": [
+      {
+        "id": "understanding-react-hooks",
+        "category": "Technologie",
+        "title": "Comprendre les hooks React",
+        "subtitle": "Une plongée dans l'univers des hooks React et la façon dont ils simplifient votre code.",
+        "description": "Les hooks React sont des fonctions qui permettent d'utiliser l'état et d'autres fonctionnalités de React sans écrire de classe. Introduits dans React 16.8, ils sont devenus un pilier du développement React. Dans cet article, nous explorons les hooks les plus utilisés, dont useState, useEffect et useContext, avec des exemples pour les utiliser efficacement dans vos applications.",
+        "image": "/images/herobg-1.png",
+        "author": "Équipe Oluseed",
+        "day": "12",
+        "month": "Aoû",
+        "year": "2023",
+        "comments": [
+          {
+            "id": 1,
+            "name": "John Smith",
+            "text": "Excellent article sur les hooks React !"
+          },
+          {
+            "id": 2,
+            "name": "Alice Johnson",
+            "text": "Très instructif, merci du partage."
+          }
+        ]
+      },
+      {
+        "id": "agency-website-ui-design",
+        "category": "Design",
+        "title": "Design d'interface pour site d'agence digitale",
+        "subtitle": "Ce qui fait convertir une page d'accueil d'agence, et les schémas sur lesquels nous nous appuyons.",
+        "description": "Une page d'accueil n'a qu'un seul travail : mériter le prochain clic. Nous passons en revue la hiérarchie, le mouvement, les signaux de confiance et la structure du texte, avec des exemples tirés de nos propres réalisations et les décisions qui les sous-tendent.",
+        "image": "/images/about-us-1.png",
+        "author": "Équipe Oluseed",
+        "day": "28",
+        "month": "Sep",
+        "year": "2023",
+        "comments": [
+          {
+            "id": 1,
+            "name": "John Smith",
+            "text": "J'ai adoré l'analyse de la hiérarchie."
+          }
+        ]
+      },
+      {
+        "id": "choosing-a-tech-stack",
+        "category": "Technologie",
+        "title": "Choisir une stack technique pour votre startup",
+        "subtitle": "Comment nous aidons les fondateurs à choisir des outils qu'ils ne regretteront pas dans deux ans.",
+        "description": "La bonne stack dépend de votre équipe, de votre trésorerie et de votre produit. Nous partageons les questions que nous posons avant de recommander React, Node, Postgres ou tout autre chose, ainsi que les compromis qui comptent le plus au début.",
+        "image": "/images/workbg.png",
+        "author": "Équipe Oluseed",
+        "day": "15",
+        "month": "Jan",
+        "year": "2024",
+        "comments": []
+      }
+    ]
+  },
+  "footer": {
+    "ctaEyebrow": "Entamons la conversation",
+    "ctaTitle": "Une idée géniale ? Construisons-la ensemble.",
+    "ctaHighlight": "ensemble.",
+    "ctaDescription": "Si vous hésitez ou avez un doute, contactez-nous. Nous vous aiderons à façonner l'idée, à la cadrer et à la livrer.",
+    "blurb": "Impulsion, développement et progrès. Nous concevons et développons des produits numériques qui aident les marques à prendre le contrôle de leur marché."
+  },
+  "internships": {
+    "eyebrow": "Stages ouverts",
+    "title": "Offres de stage actuelles.",
+    "highlight": "actuelles.",
+    "description": "Chaque stage vous associe à un mentor et à un projet client réel. Choisissez une filière, postulez en deux minutes et nous vous recontacterons sous une semaine.",
+    "howEyebrow": "Comment ça marche",
+    "howTitle": "Trois mois, un vrai produit.",
+    "howHighlight": "vrai produit.",
+    "steps": [
+      {
+        "title": "Postulez",
+        "text": "Envoyez votre CV et quelques lignes sur ce que vous voulez apprendre. Pas de longue lettre de motivation exigée."
+      },
+      {
+        "title": "Rencontrez l'équipe",
+        "text": "Un échange détendu de 30 minutes avec votre futur mentor pour parler de vos objectifs et des projets en cours."
+      },
+      {
+        "title": "Construisez et livrez",
+        "text": "Travaillez sur un projet client réel avec des revues hebdomadaires, du pair programming et une présentation finale à l'équipe."
+      }
+    ],
+    "items": [
+      {
+        "id": "frontend-intern",
+        "title": "Stagiaire ingénierie front-end",
+        "department": "Ingénierie",
+        "duration": "3 mois",
+        "location": "À distance / Osogbo",
+        "stipend": "Rémunéré",
+        "deadline": "Candidatures continues",
+        "description": "Construisez des interfaces avec React, TypeScript et Tailwind sur des produits clients en production, de la maquette au déploiement.",
+        "requirements": [
+          "Bases en HTML, CSS et JavaScript",
+          "Curiosité pour l'interface et le mouvement",
+          "Disponible au moins 20 heures par semaine"
+        ],
+        "open": true
+      },
+      {
+        "id": "backend-intern",
+        "title": "Stagiaire ingénierie back-end",
+        "department": "Ingénierie",
+        "duration": "3 mois",
+        "location": "À distance",
+        "stipend": "Rémunéré",
+        "deadline": "Candidatures continues",
+        "description": "Concevez des API et des modèles de données avec Laravel et Node, et apprenez comment les systèmes en production sont déployés et surveillés.",
+        "requirements": [
+          "À l'aise avec un langage de programmation",
+          "Notions de bases de données",
+          "Envie d'écrire des tests"
+        ],
+        "open": true
+      },
+      {
+        "id": "design-intern",
+        "title": "Stagiaire design produit",
+        "department": "Design",
+        "duration": "3 mois",
+        "location": "Hybride / Osogbo",
+        "stipend": "Rémunéré",
+        "deadline": "Candidatures continues",
+        "description": "Recherche, wireframes et prototypes de parcours pour de vrais clients dans Figma, puis voyez votre travail développé et lancé.",
+        "requirements": [
+          "Un petit portfolio ou des projets d'école",
+          "Familiarité avec Figma",
+          "Intérêt pour la recherche utilisateur"
+        ],
+        "open": true
+      },
+      {
+        "id": "marketing-intern",
+        "title": "Stagiaire marketing digital",
+        "department": "Marketing",
+        "duration": "6 mois",
+        "location": "À distance",
+        "stipend": "Rémunéré",
+        "deadline": "Candidatures continues",
+        "description": "Planifiez et lancez des campagnes, rédigez du contenu et analysez les chiffres de la croissance pour Oluseed et ses clients.",
+        "requirements": [
+          "Excellente rédaction",
+          "Bases des réseaux sociaux",
+          "Esprit analytique"
+        ],
+        "open": true
+      }
+    ]
+  }
+}

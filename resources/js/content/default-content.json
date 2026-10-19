@@ -1,0 +1,753 @@
+{
+  "brand": {
+    "name": "Oluseed",
+    "tagline": "Ignition, development and advancement.",
+    "email": "info@oluseed.com",
+    "phones": [
+      "+234 806 685 9951",
+      "+234 805 482 3562"
+    ],
+    "address": "No 21d Olaoluwa Estate Okinni, Osogbo, Osun State, Nigeria",
+    "whatsapp": "2348066859951",
+    "rc": "RC 1664920",
+    "socials": {
+      "instagram": "https://www.instagram.com/oluseedtech/",
+      "x": "https://x.com/oluseedtech",
+      "linkedin": "https://www.linkedin.com/oluseed",
+      "facebook": "https://web.facebook.com/oluseedtech"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Trusted by 200+ clients worldwide",
+      "line1": "Ignition,",
+      "line2": "development and",
+      "line3": "advancement.",
+      "description": "We design and engineer applications, websites and digital products that put businesses in control. Strategy, craft and code, delivered with professionalism.",
+      "primaryCta": "Start a project",
+      "secondaryCta": "See our work",
+      "image": "/images/herobg-1.png",
+      "imageEyebrow": "Since 2016",
+      "imageCaption": "Building with intent",
+      "cardOneValue": "9+",
+      "cardOneLabel": "Years of experience",
+      "cardTwoValue": "1K",
+      "cardTwoTitle": "Digital products",
+      "cardTwoLabel": "Shipped and maintained"
+    },
+    "clients": [
+      "SpeakAfricans",
+      "Eko Glass",
+      "Nursing Spectrum",
+      "NBA Osogbo",
+      "Remitex",
+      "Thuram Healthcare",
+      "Oshus Freight",
+      "Olastute",
+      "Samace"
+    ]
+  },
+  "stats": [
+    {
+      "value": 200,
+      "suffix": "+",
+      "label": "Satisfied clients",
+      "note": "Industry experts around the world"
+    },
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Years of experience",
+      "note": "Started in 2016, registered 2020"
+    },
+    {
+      "value": 20,
+      "suffix": "",
+      "label": "Professional designers",
+      "note": "Multi-disciplinary in-house team"
+    },
+    {
+      "value": 1,
+      "suffix": "K",
+      "label": "Digital products",
+      "note": "Websites, apps and platforms"
+    }
+  ],
+  "services": {
+    "eyebrow": "What we serve",
+    "title": "Everything your business needs to win online.",
+    "highlight": "win online.",
+    "description": "Eleven disciplines under one roof, from the first sketch to the last deployment.",
+    "items": [
+      {
+        "icon": "layout",
+        "title": "UI/UX Design",
+        "desc": "Crafting seamless, research-led experiences pixel by pixel.",
+        "wide": true
+      },
+      {
+        "icon": "code",
+        "title": "Web Design & Development",
+        "desc": "Transforming ideas into world-class, high-performance websites.",
+        "wide": false
+      },
+      {
+        "icon": "smartphone",
+        "title": "Mobile App Development",
+        "desc": "Native and cross-platform apps built for performance and usability.",
+        "wide": false
+      },
+      {
+        "icon": "cpu",
+        "title": "Software Development",
+        "desc": "Powerful, scalable digital tools tailored to your operations.",
+        "wide": true
+      },
+      {
+        "icon": "pen",
+        "title": "Graphics Design",
+        "desc": "Visual identity with real appeal that attracts and converts.",
+        "wide": false
+      },
+      {
+        "icon": "cloud",
+        "title": "Cloud Computing",
+        "desc": "Reliable cloud infrastructure, migration and operations.",
+        "wide": false
+      },
+      {
+        "icon": "trending",
+        "title": "Digital Marketing",
+        "desc": "Amplifying brand visibility with measurable campaigns.",
+        "wide": false
+      },
+      {
+        "icon": "shield",
+        "title": "Cyber Security",
+        "desc": "Protecting your digital assets with modern tooling and audits.",
+        "wide": false
+      },
+      {
+        "icon": "database",
+        "title": "Data Science",
+        "desc": "Turning raw data into meaningful, actionable insight.",
+        "wide": false
+      },
+      {
+        "icon": "clipboard",
+        "title": "Project Management",
+        "desc": "Delivering successful outcomes on time and on budget.",
+        "wide": false
+      },
+      {
+        "icon": "book",
+        "title": "ICT Training",
+        "desc": "Professional technology training for all ages and levels.",
+        "wide": false
+      }
+    ]
+  },
+  "projectsSection": {
+    "eyebrow": "Selected work",
+    "title": "Projects we have completed.",
+    "highlight": "completed.",
+    "description": "A few of the products we have designed, engineered and shipped for clients across Nigeria, Canada and South Africa."
+  },
+  "projects": [
+    {
+      "id": "speakafricans",
+      "title": "SpeakAfricans",
+      "tag": "EdTech · AI",
+      "category": "Platforms",
+      "description": "A platform for learning African languages from the grassroots with AI-powered tools.",
+      "image": "/images/speakafricans.png",
+      "link": "https://speakafricans.com",
+      "featured": true
+    },
+    {
+      "id": "olastute",
+      "title": "Olastute Inventory System",
+      "tag": "SaaS · Inventory",
+      "category": "Enterprise",
+      "description": "Stock, sales and records for stores and companies, with a full admin dashboard in v2.",
+      "image": "/images/olastute.png",
+      "link": "https://olavent.netlify.app",
+      "featured": true
+    },
+    {
+      "id": "ekoglass",
+      "title": "Eko Glass Software",
+      "tag": "Enterprise · Canada",
+      "category": "Enterprise",
+      "description": "A customized office management system that streamlines administrative workflows.",
+      "image": "/images/ekoglass.png",
+      "link": "http://portal.ekoglass.com.ng/",
+      "featured": true
+    },
+    {
+      "id": "thuram",
+      "title": "Thuram Healthcare",
+      "tag": "Health",
+      "category": "Healthcare",
+      "description": "A healthcare management system with staff recruitment and hospital operations tools.",
+      "image": "/images/thuram.png",
+      "link": "https://thuramhealthcare.ca/",
+      "featured": false
+    },
+    {
+      "id": "recycling",
+      "title": "Recycling Management",
+      "tag": "Operations",
+      "category": "Enterprise",
+      "description": "A recycling workflow management system built for optimized waste processing.",
+      "image": "/images/recycling.png",
+      "link": "https://gjc-delta.vercel.app/",
+      "featured": false
+    },
+    {
+      "id": "nursing",
+      "title": "Nursing Spectrum",
+      "tag": "Jobs",
+      "category": "Healthcare",
+      "description": "A job-booking platform for nurses seeking international employment opportunities.",
+      "image": "/images/nursing.png",
+      "link": "https://nursingspectrum.com/",
+      "featured": false
+    },
+    {
+      "id": "oshus",
+      "title": "Oshus Freight Services",
+      "tag": "Logistics · SA",
+      "category": "Platforms",
+      "description": "A courier and logistics system for parcel management in South Africa.",
+      "image": "/images/oshtrack.png",
+      "link": "https://courier.oshusfreightservices.com/",
+      "featured": false
+    },
+    {
+      "id": "nba",
+      "title": "NBA Osogbo E-Voting",
+      "tag": "GovTech",
+      "category": "Platforms",
+      "description": "A secured online e-voting platform for the Nigerian Bar Association.",
+      "image": "/images/nba.png",
+      "link": "https://vote.nbaosogbo.org/",
+      "featured": false
+    },
+    {
+      "id": "remitex",
+      "title": "Remitex Fintech",
+      "tag": "Remittance",
+      "category": "Fintech",
+      "description": "A multi-platform fintech remittance solution currently under development.",
+      "image": "/images/remitex.png",
+      "link": "https://remitex.co",
+      "featured": false
+    },
+    {
+      "id": "srms",
+      "title": "Student Result Management",
+      "tag": "Education",
+      "category": "Platforms",
+      "description": "A complete result management system built for polytechnics and colleges.",
+      "image": "/images/studentgrading.png",
+      "link": "https://srms.wetfieldinc.com/",
+      "featured": false
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle Docs Renewal",
+      "tag": "Automotive",
+      "category": "Platforms",
+      "description": "A platform to simplify license renewal, vehicle papers and documentation.",
+      "image": "/images/vehicle.png",
+      "link": "https://vehicle-docs-app.onrender.com/admin/login",
+      "featured": false
+    },
+    {
+      "id": "samace",
+      "title": "Industrial HR & Office System",
+      "tag": "Pharma",
+      "category": "Enterprise",
+      "description": "A tailored HR and management system for a pharmaceutical company.",
+      "image": "/images/samace.png",
+      "link": "https://samace-2-0.vercel.app/login",
+      "featured": false
+    }
+  ],
+  "why": {
+    "eyebrow": "Why choose us",
+    "title": "The benefits of working with us.",
+    "highlight": "benefits",
+    "image": "/images/why-oluseed-image.svg",
+    "rating": "4.9",
+    "delivered": "1,000+",
+    "benefits": [
+      {
+        "icon": "target",
+        "heading": "Proven results",
+        "description": "We deliver measurable outcomes that drive growth. Our track record of successful projects and satisfied clients speaks to our ability to turn challenges into opportunities."
+      },
+      {
+        "icon": "award",
+        "heading": "Expertise and experience",
+        "description": "With years of industry experience, our team brings deep knowledge and innovative solutions to every project, so your business benefits from cutting-edge strategy and best practice."
+      },
+      {
+        "icon": "chart",
+        "heading": "Data-driven decisions",
+        "description": "We use analytics and reporting to make decisions that are grounded in evidence and focused on results."
+      }
+    ],
+    "checks": [
+      "Transparent process",
+      "Dedicated project lead",
+      "Post-launch support",
+      "On-time delivery"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What our satisfied clients say.",
+    "highlight": "satisfied",
+    "description": "Real words from the founders and teams we have had the privilege to build with.",
+    "items": [
+      {
+        "name": "Samuel Adekunle",
+        "role": "Founder, SpeakAfricans",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=SpeakAfricans",
+        "featured": false,
+        "review": "Our entire African language learning system was only an idea until it was transformed into a fully functional platform. Clean UI, fast performance and a well-structured backend."
+      },
+      {
+        "name": "Derrick White",
+        "role": "Operations Lead, Eko Glass Canada",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=EkoGlass",
+        "featured": true,
+        "review": "The custom office management system simplified our operations massively. Staff onboarding, workflow tracking and reporting have never been easier. World-class execution."
+      },
+      {
+        "name": "Chloe Mendez",
+        "role": "CEO, Nursing Spectrum",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=NursingSpectrum",
+        "featured": false,
+        "review": "The job-booking system exceeded our expectations. Its usability, speed and reliability significantly improved how nurses find international opportunities."
+      },
+      {
+        "name": "Tebogo Mahlangu",
+        "role": "Founder, Oshus Freight Services",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=OshusFreight",
+        "featured": false,
+        "review": "Our logistics and parcel management platform became far more efficient and automated. The attention to detail and problem-solving ability was outstanding."
+      },
+      {
+        "name": "Barr. Ajibola Akin",
+        "role": "Coordinator, NBA Osogbo",
+        "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=NBAOsogbo",
+        "featured": true,
+        "review": "The e-voting system delivered was secure, reliable and professionally built. It handled high traffic smoothly during elections. Fantastic job on performance and security."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions.",
+    "highlight": "questions.",
+    "description": "Everything you might want to know before we start working together.",
+    "items": [
+      {
+        "q": "Do you work with businesses in all industries?",
+        "a": "Yes. We have delivered for education, healthcare, logistics, legal, fintech and manufacturing clients. Every engagement starts with discovery so we understand your industry before we design anything."
+      },
+      {
+        "q": "How long does it take to see results?",
+        "a": "It depends on scope. Digital marketing efforts often show improvement within a few months, while larger builds such as custom software or brand development follow a phased roadmap with milestones you can track."
+      },
+      {
+        "q": "What metrics do you use to measure success?",
+        "a": "We agree on client-specific KPIs up front: revenue growth, conversion rate, engagement, lead generation, brand reach and return on investment."
+      },
+      {
+        "q": "Can you customize your services for my business?",
+        "a": "Absolutely. We tailor our services to fit your unique needs, industry and growth goals rather than forcing a one-size-fits-all package."
+      },
+      {
+        "q": "What if I need ongoing support?",
+        "a": "We offer continuous support packages that include monitoring, optimization, security updates and regular performance reviews."
+      }
+    ]
+  },
+  "pages": {
+    "about": {
+      "eyebrow": "About Oluseed Technologies",
+      "title": "We empower brands with complete digital dominance.",
+      "highlight": "digital dominance.",
+      "description": "In a world where business survival depends on strategic control, our cutting-edge web solutions give businesses full control and confidence, so they stay ahead and unshaken by competitors.",
+      "image": "/images/workbg.png"
+    },
+    "work": {
+      "eyebrow": "Our work",
+      "title": "Some of the projects we are proud of.",
+      "highlight": "proud",
+      "description": "Applications, websites and platforms designed and engineered with professionalism, for clients across Nigeria, Canada and South Africa.",
+      "image": "/images/workbg.png"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Communicate your mind with us.",
+      "highlight": "with us.",
+      "description": "Have a project in mind, a question, or just want to say hello? We typically reply within one business day.",
+      "image": "/images/workbg.png"
+    },
+    "blog": {
+      "eyebrow": "Our blog",
+      "title": "Ideas, insights and lessons from the studio.",
+      "highlight": "insights",
+      "description": "Notes on design, engineering and growing a technology business, written by the people doing the work.",
+      "image": "/images/workbg.png"
+    },
+    "shop": {
+      "eyebrow": "Shop",
+      "title": "Quality hardware, handpicked by our engineers.",
+      "highlight": "handpicked",
+      "description": "Laptops, printers, connectivity and accessories we trust in our own work. Order directly through WhatsApp.",
+      "image": "/images/shop-img.png"
+    },
+    "careers": {
+      "eyebrow": "Careers at Oluseed",
+      "title": "Build the future with a team that ships.",
+      "highlight": "ships.",
+      "description": "Join us to achieve our goal of building a great future for startups and big companies alike. Remote-friendly roles, real ownership, and work that matters.",
+      "image": "/images/startup-img.png"
+    },
+    "internships": {
+      "eyebrow": "Internships",
+      "title": "Learn by shipping real products.",
+      "highlight": "real products.",
+      "description": "Paid, mentored internships for students and recent graduates who want to build software that people actually use. Remote-friendly, with a dedicated mentor and a real project from week one.",
+      "image": "/images/startup-img.png"
+    }
+  },
+  "about": {
+    "storyEyebrow": "Our story",
+    "storyTitle": "IT solutions with years of experience.",
+    "storyHighlight": "experience.",
+    "story": "Oluseed Technologies Limited (RC 1664920) is a technology company that started in 2016 as a full robotics company and was registered with the Corporate Affairs Commission on 5 March 2020. Today we deliver website and app design, software applications, data science, cybersecurity, digital marketing, robotics, embedded systems, project management, start-up services and general ICT services, maintaining efficiency in our operations while focusing on solving ICT problems globally.",
+    "capabilities": [
+      "Website design & development",
+      "App design & development",
+      "Software applications",
+      "Data science",
+      "Game design",
+      "Networking",
+      "Cybersecurity services",
+      "Digital marketing",
+      "Cartoon animation",
+      "Robotic programming",
+      "Embedded systems",
+      "Project management",
+      "Start-up services",
+      "Solar installation",
+      "CCTV",
+      "Computer & electronics sales",
+      "Branding & rebranding",
+      "Capacity building"
+    ],
+    "missionTitle": "Mission",
+    "mission": "To empower businesses with cutting-edge web solutions that drive growth, enhance brand visibility and foster meaningful customer engagement.",
+    "visionTitle": "Vision",
+    "vision": "To be the leading digital solutions provider, renowned for transforming brands into dominant forces in the online space through innovation and excellence.",
+    "howEyebrow": "How we work",
+    "howTitle": "Unraveling success through phenomenal technology and strategic expertise.",
+    "howHighlight": "phenomenal technology",
+    "howDescription": "A powerhouse team and cutting-edge tools, dedicated to top-tier web development, design, marketing and custom software. We don't just build websites, we position businesses at the top of the market.",
+    "imageOne": "/images/about-us-1.png",
+    "imageTwo": "/images/herobg-1.png",
+    "values": [
+      {
+        "title": "Craft over shortcuts",
+        "text": "We sweat the details because they compound into trust."
+      },
+      {
+        "title": "Honest timelines",
+        "text": "Clear scope, clear milestones, no surprises."
+      },
+      {
+        "title": "Built to last",
+        "text": "Maintainable code and systems you can grow with."
+      }
+    ]
+  },
+  "contact": {
+    "phoneText": "We're interested in working together.",
+    "locationText": "Visit our office.",
+    "emailText": "Have a project in mind? Send a message.",
+    "mapsUrl": "https://maps.google.com/?q=Olaoluwa+Estate+Okinni+Osogbo",
+    "formEyebrow": "Send a message",
+    "formTitle": "Tell us what you're building.",
+    "formHighlight": "building.",
+    "formDescription": "Share a few details and we'll get back to you with next steps, a timeline and an honest estimate.",
+    "formImage": "/images/about-us-1.png"
+  },
+  "careers": {
+    "departments": [
+      "Engineering",
+      "Design",
+      "Marketing",
+      "Sales",
+      "Customer Operations"
+    ],
+    "jobs": [
+      {
+        "id": "frontend-dev",
+        "title": "Frontend Developer",
+        "department": "Engineering",
+        "role": "Intern - Remote",
+        "description": "Build responsive, animated interfaces with React, TypeScript and Tailwind alongside our senior engineers.",
+        "open": true
+      },
+      {
+        "id": "backend-eng",
+        "title": "Backend Engineer",
+        "department": "Engineering",
+        "role": "SIWES Student",
+        "description": "Design APIs, data models and integrations for the products we ship to clients.",
+        "open": true
+      },
+      {
+        "id": "card-ops",
+        "title": "Card Operations",
+        "department": "Customer Operations",
+        "role": "Intern - Remote",
+        "description": "Support customers, process requests and help us keep operations running smoothly.",
+        "open": true
+      }
+    ],
+    "perksEyebrow": "Benefits",
+    "perksTitle": "More than a competitive salary.",
+    "perksHighlight": "competitive",
+    "perksDescription": "A few of the resources we offer to help our team excel.",
+    "perks": [
+      {
+        "title": "Health insurance",
+        "description": "Comprehensive health coverage for you and your family.",
+        "image": "/images/benefit01.png"
+      },
+      {
+        "title": "Smart, kind colleagues",
+        "description": "Work with a team of talented and supportive professionals.",
+        "image": "/images/benefit02.png"
+      },
+      {
+        "title": "Professional development",
+        "description": "We invest in our people so they can achieve their short, medium and long-term professional goals.",
+        "image": "/images/benefit03.png"
+      },
+      {
+        "title": "Annual leave",
+        "description": "All team members have up to 30 days of annual leave, and are warmly encouraged to use them.",
+        "image": "/images/benefit04.png"
+      }
+    ]
+  },
+  "shop": {
+    "products": [
+      {
+        "id": "dell-latitude-e5440",
+        "name": "Dell Latitude e5440",
+        "price": 120000,
+        "spec": "Intel Core i5, 8GB RAM, 256GB SSD, 14-inch Display",
+        "image": "/images/shop-1.png",
+        "category": "Laptop",
+        "description": "A dependable business laptop with a solid build, fast SSD storage and a comfortable keyboard. Inspected and tested by our engineers before delivery.",
+        "inStock": true
+      },
+      {
+        "id": "xprinter",
+        "name": "Xprinter Thermal Printer",
+        "price": 95000,
+        "spec": "80mm thermal receipt printer, USB + LAN",
+        "image": "/images/shop-2.png",
+        "category": "Printer",
+        "description": "Fast, quiet thermal receipt printing for shops and restaurants. Works with our Olastute inventory system out of the box.",
+        "inStock": true
+      },
+      {
+        "id": "starlink",
+        "name": "Starlink Standard Kit",
+        "price": 450000,
+        "spec": "Satellite internet kit with router and mount",
+        "image": "/images/shop-3.png",
+        "category": "Connectivity",
+        "description": "High-speed, low-latency satellite internet for homes and offices anywhere in Nigeria. Includes installation guidance.",
+        "inStock": true
+      },
+      {
+        "id": "booster",
+        "name": "Network Signal Booster",
+        "price": 45000,
+        "spec": "Dual-band mobile signal booster, 300sqm coverage",
+        "image": "/images/shop-4.png",
+        "category": "Connectivity",
+        "description": "Amplifies weak mobile signal inside buildings so calls and data stay reliable.",
+        "inStock": true
+      }
+    ]
+  },
+  "blog": {
+    "posts": [
+      {
+        "id": "understanding-react-hooks",
+        "category": "Technology",
+        "title": "Understanding React Hooks",
+        "subtitle": "A deep dive into the world of React Hooks and how they can simplify your code.",
+        "description": "React Hooks are functions that let you use state and other React features without writing a class. They were introduced in React 16.8 and have since become a fundamental part of React development. In this post we explore the most commonly used hooks, including useState, useEffect and useContext, with examples of how to use them effectively in your applications.",
+        "image": "/images/herobg-1.png",
+        "author": "Oluseed Team",
+        "day": "12",
+        "month": "Aug",
+        "year": "2023",
+        "comments": [
+          {
+            "id": 1,
+            "name": "John Smith",
+            "text": "Great article on React Hooks!"
+          },
+          {
+            "id": 2,
+            "name": "Alice Johnson",
+            "text": "Very informative, thanks for sharing."
+          }
+        ]
+      },
+      {
+        "id": "agency-website-ui-design",
+        "category": "Design",
+        "title": "Digital Agency Website UI Design",
+        "subtitle": "What makes an agency landing page convert, and the patterns we rely on.",
+        "description": "A landing page has one job: earn the next click. We walk through hierarchy, motion, trust signals and copy structure, with examples from our own work and the decisions behind them.",
+        "image": "/images/about-us-1.png",
+        "author": "Oluseed Team",
+        "day": "28",
+        "month": "Sep",
+        "year": "2023",
+        "comments": [
+          {
+            "id": 1,
+            "name": "John Smith",
+            "text": "Loved the breakdown of hierarchy."
+          }
+        ]
+      },
+      {
+        "id": "choosing-a-tech-stack",
+        "category": "Technology",
+        "title": "Choosing a Tech Stack for Your Startup",
+        "subtitle": "How we help founders pick tools they will not regret in two years.",
+        "description": "The right stack depends on your team, your runway and your product. We share the questions we ask before recommending React, Node, Postgres or something else entirely, and the trade-offs that matter most early on.",
+        "image": "/images/workbg.png",
+        "author": "Oluseed Team",
+        "day": "15",
+        "month": "Jan",
+        "year": "2024",
+        "comments": []
+      }
+    ]
+  },
+  "footer": {
+    "ctaEyebrow": "Start a conversation",
+    "ctaTitle": "Got an awesome idea? Let's build it together.",
+    "ctaHighlight": "together.",
+    "ctaDescription": "If you are confused or in doubt, reach out. We'll help you shape the idea, scope it, and ship it.",
+    "blurb": "Ignition, development and advancement. We design and engineer digital products that help brands take control of their market."
+  },
+  "internships": {
+    "eyebrow": "Open internships",
+    "title": "Current internship openings.",
+    "highlight": "openings.",
+    "description": "Each internship pairs you with a mentor and a live client project. Pick a track, apply in two minutes, and we will reach out within a week.",
+    "howEyebrow": "How it works",
+    "howTitle": "Three months, one real product.",
+    "howHighlight": "real product.",
+    "steps": [
+      {
+        "title": "Apply",
+        "text": "Send your CV and a short note about what you want to learn. No cover letter essays required."
+      },
+      {
+        "title": "Meet the team",
+        "text": "A relaxed 30-minute call with your prospective mentor to talk about your goals and the projects on our board."
+      },
+      {
+        "title": "Build and ship",
+        "text": "Work on a real client project with weekly reviews, code pairing and a final presentation to the team."
+      }
+    ],
+    "items": [
+      {
+        "id": "frontend-intern",
+        "title": "Frontend Engineering Intern",
+        "department": "Engineering",
+        "duration": "3 months",
+        "location": "Remote / Osogbo",
+        "stipend": "Paid",
+        "deadline": "Rolling",
+        "description": "Build interfaces with React, TypeScript and Tailwind on live client products, from design handoff to deployment.",
+        "requirements": [
+          "Basic HTML, CSS and JavaScript",
+          "Curiosity about UI and motion",
+          "Available at least 20 hours per week"
+        ],
+        "open": true
+      },
+      {
+        "id": "backend-intern",
+        "title": "Backend Engineering Intern",
+        "department": "Engineering",
+        "duration": "3 months",
+        "location": "Remote",
+        "stipend": "Paid",
+        "deadline": "Rolling",
+        "description": "Design APIs and data models with Laravel and Node, and learn how production systems are deployed and monitored.",
+        "requirements": [
+          "Comfort with one programming language",
+          "Basic understanding of databases",
+          "Willingness to write tests"
+        ],
+        "open": true
+      },
+      {
+        "id": "design-intern",
+        "title": "Product Design Intern",
+        "department": "Design",
+        "duration": "3 months",
+        "location": "Hybrid / Osogbo",
+        "stipend": "Paid",
+        "deadline": "Rolling",
+        "description": "Research, wireframe and prototype flows for real clients in Figma, then see your work built and launched.",
+        "requirements": [
+          "A small portfolio or school projects",
+          "Familiarity with Figma",
+          "Interest in user research"
+        ],
+        "open": true
+      },
+      {
+        "id": "marketing-intern",
+        "title": "Digital Marketing Intern",
+        "department": "Marketing",
+        "duration": "6 months",
+        "location": "Remote",
+        "stipend": "Paid",
+        "deadline": "Rolling",
+        "description": "Plan and run campaigns, write content and read the numbers behind growth for Oluseed and our clients.",
+        "requirements": [
+          "Strong writing",
+          "Basic social media know-how",
+          "An analytical mindset"
+        ],
+        "open": true
+      }
+    ]
+  }
+}
